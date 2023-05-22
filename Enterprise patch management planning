@@ -20,39 +20,28 @@ without the vulnerabilities) and/or deploying additional security controls to re
 vulnerability exploitation (e.g., using firewalls and network segmentation to isolate
 vulnerable assets, thus reducing the attack surface). The following patch scenarios can be distinguished:
            
-                          - Routine patching. This is the standard procedure for patches that are on a regular release
-cycle and have not been elevated to emergency status. Most patching falls under this
-scenario. However, because routine patching does not have the urgency of emergency
-scenarios, and routine patch installation can interrupt operations (e.g., device reboots), it
-is often postponed and neglected. This provides many additional windows of opportunity
-for attackers. Delaying routine patching also makes emergency patching more difficult,
-time-consuming, and disruptive because of the need to first install previous patches that
-new patches depend upon
+                          - Routine patching. A routine patch does not
+necessitate immediate installation, but at some point, patches must be installed to reduce the risk
+for the entire environment. Forcing installation can be direct, like triggering patch execution, or
+indirect, like preventing network access for unpatched assets until they are patched.
       
-                           - Emergency patching. This is the procedure to address patching emergencies in a crisis
-situation, such as a severe vulnerability or a vulnerability being actively exploited. If one
-or more of the organization’s vulnerable assets have already been compromised,
-emergency patching may be part of incident response efforts. Emergency patching needs
+                           - Emergency patching. Even under emergency
+circumstances, it may still be beneficial to first deploy a new patch to a small number of canary
+assets to confirm that the patch is not corrupted and does not break the software. This period
+could last a few minutes to a few hours, and the emergency patching itself could occur in the
+following hours or days, depending on how urgent the emergency is. Emergency patching needs
 to be handled as efficiently as possible to prevent the imminent exploitation of vulnerable
 assets.
 
-                           - Emergency mitigation. This is the emergency procedure in a crisis situation, like those
-described above for the emergency patching scenario, to temporarily mitigate
-vulnerabilities before a patch is available. The mitigation can vary and may or may not
-need to be rolled back afterward. Emergency mitigations are sometimes needed because
-of issues with a patch. For example, a patch might be flawed and not actually correct a
-vulnerability, or a patch might inadvertently disrupt the operation of other software or
-systems. A patch could even be compromised.
+                           - Emergency mitigation. Mitigations may require deactivating system
+functionality or isolating an asset from other assets and having automated mechanisms to apply
+these changes. Without the processes, procedures, and tools in place to implement mitigations,
+too much time may be lost, and vulnerable assets may be compromised.
 
-                             -Unpatchable assets. This is the implementation of isolation or other methods to mitigate
-the risk of systems that cannot be easily patched. This is typically required if routine
-patching is not able to accommodate these systems within a reasonable time frame.
-Examples of why an asset may be unpatchable include the vendor not providing patches
-(e.g., asset is at end-of-life, asset does not support updates) or an asset needing to run
-uninterrupted for an extended period of time because it provides mission-critical
-functions. Unpatchable assets need to be included in risk response planning because a
-new vulnerability in an asset might necessitate a change in the methods needed to
-mitigate its risk. 
+                             -Unpatchable assets. There should be an approved set of
+methods for each maintenance group, and these methods should have been reviewed and
+analyzed in advance by security architects/engineers to determine their adequacy in mitigating
+risk.
                
 
               c)Transfer: Reduce the risk by sharing some of the consequences with another party, such
@@ -63,6 +52,7 @@ service provider takes care of patching.
               d)Avoid: Ensure that the risk does not occur by eliminating the attack surface, such as by
 uninstalling the vulnerable software, decommissioning assets with the vulnerabilities, or
 disabling computing capabilities in assets that can function without them.
+
 
 3. Execute the risk response. This will vary depending on the nature of the selected risk
 response, but common phases include the following:
@@ -171,8 +161,31 @@ their physical and virtual computing assets, including OT, IoT, and container as
 4. Software inventories should include information on each computing asset’s technical characteristics and
 mission/business characteristics
 
-5. Organizations should define the software vulnerability risk response scenarios they need to
-be prepared to handle. Examples of such scenarios include:
+5. Creating a maintenance group, a maintenance group is a set of assets with similar characteristics that generally have the same
+software maintenance needs. Here are a few simplified examples of possible maintenance groups:
+
+• Mobile workforce laptops for standard end users
+
+• On-premises datacenter (including servers, network equipment, storage, etc.)
+
+• Legacy OT assets
+
+• Smartphones for the mobile workforce
+
+• On-premises servers for automated software testing
+
+• Containers with customer-facing applications in the public cloud
+
+
+
+
+
+
+
+
+
+
+
 
 
 
