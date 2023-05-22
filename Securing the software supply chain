@@ -12,7 +12,7 @@ of vulnerabilities.
 
 =======================================Definitions===========================================================
 
-A upplier acts as a liaison pr intermediary between the developer and a customer and as such retains
+A supplier acts as a liaison or intermediary between the developer and a customer and as such retains
 primary responsibilities for the following:
 
 1. Maintaininf the integrity of the securely delivered sofftware
@@ -34,7 +34,7 @@ software development life cycle (SDLC) and should include:
    
    The following mitigations can help reduce threats and risks associated with the deployment process:
    
-    1. Verify if the software shipped is the same as the recived
+    1. Verify if the software shipped is the same as the received
     
     2. Create fully signed images and binary code
     
@@ -45,3 +45,32 @@ software development life cycle (SDLC) and should include:
     5. Establish a secure process fro updates ad pataches
     
     
+All forms of code should be protected from unauthorized access and tampering and the principle of least privileges
+should be applied throught the SDLC. This is a key in ensuring that code delivered to the customers includes all
+required security features and that those features are working as designed.
+
+The following mitigrations can help reduce risks associated with the integrity of the software code:
+
+    1. Enforce role-based-access-control with segmentation of duties and least privileges
+    
+    2. Identify and vet trusted architectes, developers, testers and the documentation personnel
+    with the required skills necessary to complete the project
+    
+    3. Assign individuals to one or more design, coding or quality assurance tasks based on their
+    capabilities or interests and register their privileges for the corrseponding project roles
+    in a secure access control system
+    
+    4. Verify each assigned individual's corporate-issued development system conforms to all
+    company security standards, including full disk encryption, minimum password complexity,
+    patch management, antivirus and intrusion detection system
+    
+    5. Ensure that code repository, build and test environments have at least the same security
+    protections as other critical network capabilities such as network segmentation, firewalling,
+    monitoring, automated encryption and remote backups
+    
+    6. Ensure the use of multi-factor authentication (MFA) or continous authentication
+    based on the behaviour analytics and virtual private network (VPN)
+    
+    7. Conduct regular reviews of the third  party software
+    
+    8. Establish a strong security culture in the development and operation support teams
