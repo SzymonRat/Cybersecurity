@@ -11,3 +11,37 @@ software via contractual agreements, software releases and updates, notification
 of vulnerabilities.
 
 =======================================Definitions===========================================================
+
+A upplier acts as a liaison pr intermediary between the developer and a customer and as such retains
+primary responsibilities for the following:
+
+1. Maintaininf the integrity of the securely delivered sofftware
+
+2. Validating software packages and updates
+
+3. Mintaining awerness of known vulnerabilities
+
+4. Accept cutomer reports of issues or newly discovered vulnerabilities  and notifing 
+developers for remediations
+
+Policies should be established and implemented that specify checks required to securly 
+deliver software. These policies should be accessible and knnownby everyone who has a role in 
+software development life cycle (SDLC) and should include:
+   - notifing customers of vulnerabilities
+   - mechanisms used for the mitigations
+   - End-of-life support (EOL)
+   
+   
+   The following mitigations can help reduce threats and risks associated with the deployment process:
+   
+    1. Verify if the software shipped is the same as the recived
+    
+    2. Create fully signed images and binary code
+    
+    3. Ensure the secure hash to validate the binary
+    
+    4. Establish that communication channel is secure
+    
+    5. Establish a secure process fro updates ad pataches
+    
+    
