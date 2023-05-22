@@ -42,7 +42,7 @@ software development life cycle (SDLC) and should include:
     
     4. Establish that communication channel is secure
     
-    5. Establish a secure process fro updates ad pataches
+    5. Establish a secure process for updates ad pataches
     
     
 All forms of code should be protected from unauthorized access and tampering and the principle of least privileges
@@ -74,3 +74,34 @@ The following mitigrations can help reduce risks associated with the integrity o
     7. Conduct regular reviews of the third  party software
     
     8. Establish a strong security culture in the development and operation support teams
+    
+    
+  The following mitigations can help reduct risks assocaited with the integrity of software releases:
+  
+    1. Digitally signed code
+    
+    2. Establish and implment a procedure for key management
+    
+    3. Include signature validation in the list of security checks
+    
+    
+    Organizations should have an archivial strategy that allows the organization to specify
+    major and minor releases. Archived software releases can be used for disaster recovery 
+    as well as for forensic investigations. By moving released software to an archived stated
+    what is typically a lower cost storage area, the organization can save money and allocate 
+    faster storage for more critical software projects. This process can also speed up 
+    the productivity by reducing the time it takes for the employees to open files
+    under development and to access the associated metadata.
+    
+    The following mitigations can help reduce risks assocaited with moving software to archive:
+    
+       1. Establishing repositoried with appropriate access control
+       
+       2. Ensure the code and executable are maintained
+       
+       3. Ensure that archived software is only in read-only mode
+    
+    
+    
+    
+    
