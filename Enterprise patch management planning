@@ -1,4 +1,4 @@
-Software vulnerability managemetn life cycle
+Software vulnerability management life cycle
 
 1.Know when new software vulnerabilities affect your organization’s assets, including
 applications, operating systems, and firmware. This involves knowing what assets
@@ -18,7 +18,42 @@ impact is low enough that no additional action is needed.
 software, disabling a vulnerable feature, or upgrading to a newer software version
 without the vulnerabilities) and/or deploying additional security controls to reduce
 vulnerability exploitation (e.g., using firewalls and network segmentation to isolate
-vulnerable assets, thus reducing the attack surface).
+vulnerable assets, thus reducing the attack surface). The following patch scenarios can be distinguished:
+           
+                          - Routine patching. This is the standard procedure for patches that are on a regular release
+cycle and have not been elevated to emergency status. Most patching falls under this
+scenario. However, because routine patching does not have the urgency of emergency
+scenarios, and routine patch installation can interrupt operations (e.g., device reboots), it
+is often postponed and neglected. This provides many additional windows of opportunity
+for attackers. Delaying routine patching also makes emergency patching more difficult,
+time-consuming, and disruptive because of the need to first install previous patches that
+new patches depend upon
+      
+                           - Emergency patching. This is the procedure to address patching emergencies in a crisis
+situation, such as a severe vulnerability or a vulnerability being actively exploited. If one
+or more of the organization’s vulnerable assets have already been compromised,
+emergency patching may be part of incident response efforts. Emergency patching needs
+to be handled as efficiently as possible to prevent the imminent exploitation of vulnerable
+assets.
+
+                           - Emergency mitigation. This is the emergency procedure in a crisis situation, like those
+described above for the emergency patching scenario, to temporarily mitigate
+vulnerabilities before a patch is available. The mitigation can vary and may or may not
+need to be rolled back afterward. Emergency mitigations are sometimes needed because
+of issues with a patch. For example, a patch might be flawed and not actually correct a
+vulnerability, or a patch might inadvertently disrupt the operation of other software or
+systems. A patch could even be compromised.
+
+                             -Unpatchable assets. This is the implementation of isolation or other methods to mitigate
+the risk of systems that cannot be easily patched. This is typically required if routine
+patching is not able to accommodate these systems within a reasonable time frame.
+Examples of why an asset may be unpatchable include the vendor not providing patches
+(e.g., asset is at end-of-life, asset does not support updates) or an asset needing to run
+uninterrupted for an extended period of time because it provides mission-critical
+functions. Unpatchable assets need to be included in risk response planning because a
+new vulnerability in an asset might necessitate a change in the methods needed to
+mitigate its risk. 
+               
 
               c)Transfer: Reduce the risk by sharing some of the consequences with another party, such
 as by purchasing cybersecurity insurance or by replacing conventional software
@@ -104,8 +139,40 @@ management.
 enterprise patch management planning, thereby minimizing the potential negatives of patching to
 operations:
 
+1. Organizations should strive to decrease the number of vulnerabilities introduced into their
+environments. Possible methods for decreasing the number of vulnerabilities include:
+
+   • Harden software, such as enforcing the principles of least privilege and least functionality
+(e.g., deactivating or uninstalling software services, features, and other components that
+are not needed).
+
+   • Acquire software that is likely to have fewer vulnerabilities over time compared to other
+software.
+
+   • Work with software development partners that are likely to introduce fewer
+vulnerabilities into software over time, taking into consideration factors such as how
+rigorous their secure software development practices are, how quickly they address issues
+and release patches, how often problems are associated with their patches, and how
+transparent they are in their security-related communications.
+
+   • Use managed services instead of software when feasible.
+   
+   • Select stacks or platforms that are likely to have fewer vulnerabilities over time compared
+to other stacks or platforms (e.g., running software within a small container instead of a
+larger operating system).
 
 
+2.Organizations should consider deploying applications in ways that make patching less
+likely to disrupt operations
+
+3. Organizations should establish and constantly maintain up-to-date software inventories for
+their physical and virtual computing assets, including OT, IoT, and container assets
+
+4. Software inventories should include information on each computing asset’s technical characteristics and
+mission/business characteristics
+
+5. Organizations should define the software vulnerability risk response scenarios they need to
+be prepared to handle. Examples of such scenarios include:
 
 
 
