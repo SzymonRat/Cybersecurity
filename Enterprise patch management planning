@@ -177,6 +177,22 @@ software maintenance needs. Here are a few simplified examples of possible maint
 • Containers with customer-facing applications in the public cloud
 
 
+Actionable enterprise level patching metrics
+
+Metrics play several roles in patch management and vulnerability management. A common
+example is estimating the relative importance of a new vulnerability so that its remediation can
+be prioritized appropriately, such as something to be addressed by routine patching versus
+emergency patching or mitigations. Metrics that are too simple are generally not actionable because they do not provide enough
+information. They do not offer the insights into the performance of vulnerability management
+that are needed to identify the nature of problems and the improvements necessary to address
+those problems and improve the organization’s vulnerability management performance
+
+
+
+
+
+
+
 
 
 
