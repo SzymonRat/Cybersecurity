@@ -181,11 +181,51 @@ bounds,
    the software to the customers
        
        
+   =========================================================================================================
+   
+   Developer group dependencies
+   
+   1. Dependencies/artifacts recommended to be provided by the supplier  for the benefit of the developer:
+       - issues from customers
+       - hashes
+       - SDLC policies and procedures
+       - Secure architecture, high level design
+       - Qualified team assembly with code/security training
+       - Indepented QA individual/team
+       -Independent security audit individual/team
+       -Open source review board with repository
+       - Product release managment/resources
+       - SBOM
+       -Development location and information
        
        
+    2. Dependencies/artifacts recommended to be provided by the third-party supplier  for the benefit of the developer:
+       
+       -Third-party SBOM
+       -Third-party license
+       -Release notes
+       -Vulnerability notifications
+       -Publish updates and patches to the customer to address new vulnerabilities or weaknesses found  within the product
+       
+     3. Dependencies/artifacts recommended to be provided by the customer for the benefit of the supplier/developer
+     
+       -Requirements and criteria for success
+       -Implied industry security requirements
+       - Provide issues from the operations environment, take updates and patches
+       - Vulnerability notifications and reporting from the users
        
        
-       
-       
+      ============================================================================================================
+      
+      In principle, any artifacts created during the lifecycle of the software development process are owned
+by and private to a developing organization. These organizations can determine what artifacts are
+made available with potential and current users of a product with or without a Non-Disclosure
+Agreement (NDA). Availability of information must take into consideration regulatory and legal
+requirements, the customer requirements for the information and the risk involved by exposing
+information leading to the exploitation of the product. Exceptions may include open-source
+development organizations, which are more inclined to make all development information available,
+to include source code. 
+
+
        
        
