@@ -76,6 +76,10 @@ The following mitigrations can help reduce risks associated with the integrity o
     8. Establish a strong security culture in the development and operation support teams
     
     
+    Suppliers should provide a mechanism for veryfing software release integrity by digitally 
+    signing the code throughout the software life cycle. Digitally signed code enables recipents
+    to positively verify and trust the provenance and integrity of the code
+    
   The following mitigations can help reduct risks assocaited with the integrity of software releases:
   
     1. Digitally signed code
