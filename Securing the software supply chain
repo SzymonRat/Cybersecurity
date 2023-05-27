@@ -102,6 +102,41 @@ The following mitigrations can help reduce risks associated with the integrity o
        3. Ensure that archived software is only in read-only mode
     
     
+     The following mitigations can help reduce risk assocaited with software compilation and build
+processes
+
+   1. Organizations should establish and maintain a trusted toolchain for all tools involved in the
+compilation and building of software; these tools should be configured to a known secure
+baseline state, recorded, and tracked via an inventory maintained in a Configuration
+Management Database, continuously monitored for emergent security vulnerabilities, and
+receive appropriate security updates in accordance with defined remediation timelines.
+
+2. All build processes should be automated and the resulting scripts and metadata should be
+stored securely in a version control system with access limited to the individuals
+responsible for building the components.
+
+3. Non-interactive service accounts should be used to invoke automated build processes to
+ensure build outputs are service-generated and non-falsifiable.
+
+4. The authentication credentials of service accounts which execute automated compilation
+and packaging processes should be verified using an approved method to validate the
+processes as trusted.
+
+5. Automated build processes should execute in an ephemeral environment which is logically
+isolated and free from external influence.
+
+6. Automated build processes should generate and maintain a build manifest identifying
+builder, sources, entry point, and parameters to ensure build reproducibility.
     
-    
-    
+7. Secure compiler settings should be enabled to help prevent or limit the effectiveness of
+some types of security issues, most notably buffer overflows (both stack and heap-based).
+Examples of secure compiler settings may include, but are not limited to, the following:
+       
+       a) Enable stripping of symbols from binary output,
+       b) Enable data execution prevention,
+       c) Enable safe structured exception handling,
+       d) Runtime checks for security,
+       e) Enable address space layout randomization,
+       f) Emit an error if an array index can be determined at compile time to be out of
+bounds,
+       g) Emit a warning upon the detection of a suspicious use of an address pointer
