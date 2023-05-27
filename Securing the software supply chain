@@ -15,7 +15,7 @@ of vulnerabilities.
 A supplier acts as a liaison or intermediary between the developer and a customer and as such retains
 primary responsibilities for the following:
 
-1. Maintaininf the integrity of the securely delivered sofftware
+1. Maintaining the integrity of the securely delivered sofftware
 
 2. Validating software packages and updates
 
@@ -102,6 +102,14 @@ The following mitigrations can help reduce risks associated with the integrity o
        3. Ensure that archived software is only in read-only mode
     
     
+    Whether the build process is "full" or "incremental" dictates whether it is performed 
+    using the "never seen" or "last build state". Full builds check for dependencies, compile
+    all the source files, build all the parts in order and assemble them into artifcats.
+    
+    In an instance of incremental build, the build checks and comapres the source and other files
+    that depend on the target for modifications since the last build. If a modifications exists
+    the target will rebuild, otherwise the file from the last build will be reused
+    
      The following mitigations can help reduce risk assocaited with software compilation and build
 processes
 
@@ -140,3 +148,40 @@ Examples of secure compiler settings may include, but are not limited to, the fo
        f) Emit an error if an array index can be determined at compile time to be out of
 bounds,
        g) Emit a warning upon the detection of a suspicious use of an address pointer
+       
+   
+   
+   Customers are sometime anxious to quickly install software and may occasionally use it
+   an operational environment without completing proper configuration or before configuration
+   options are fully understood
+   
+   The following mitigations can help reduct risks assocaited with insecure configuration:
+  
+  1. Require that all adminstrative changes/configurations occure over local or securly-enrypted remote connection
+  
+  2. Locally log adminstrative actions
+  
+  3. Provide only one default administrative account and don't provide ant default user accounts or accesses
+  
+  4. Require to change default administrative password after the first login
+  
+  5. Require all adminstrative account credentials be sufficiently complex and if possivle with "FA
+  
+  6. Password recovery procedure must require console or phisical access
+       
+      
+      
+   Supplliers should make every effort to ensure that publicly known or easily identified vulnerabilities 
+   are not in any software provided to customers. Testing for, understanding and removing vulenrabilities 
+   in software is required to help prevent supplying code that can be readily compromised, before devliering 
+   the software to the customers
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
