@@ -1,0 +1,44 @@
+Operating system (OS) virtualization provides a separate virtualized view of the OS to each
+application, thereby keeping each application isolated from all others on the server. Each
+application can only see and affect itself. Recently, OS virtualization has become increasingly
+popular due to advances in its ease of use and a greater focus on developer agility as a key
+benefit. Today’s OS virtualization technologies are primarily focused on providing a portable,
+reusable, and automatable way to package and run applications
+
+The following can help reduce the risk associated with container breaches:
+
+1. Tailor the organization’s operational culture and technical processes to support the new
+way of developing, running, and supporting applications made possible by containers
+
+2. Use container-specific host OSs instead of general-purpose ones to reduce attack surfaces.
+
+      A container-specific host OS is a minimalist OS explicitly designed to only run containers, with
+all other services and functionality disabled, and with read-only file systems and other hardening
+practices employed. When using a container-specific host OS, attack surfaces are typically much
+smaller than they would be with a general-purpose host OS, so there are fewer opportunities to
+attack and compromise a container-specific host OS.
+
+3. Only group containers with the same purpose, sensitivity, and threat posture on a single
+host OS kernel to allow for additional defense in depth.
+
+      While most container platforms do an effective job of isolating containers from each other and
+from the host OS, it may be an unnecessary risk to run apps of different sensitivity levels
+together on the same host OS. Segmenting containers by purpose, sensitivity, and threat posture
+provides additional defense in depth. By grouping containers in this manner, organizations make
+it more difficult for an attacker who compromises one of the groups to expand that compromise
+to other groups. This increases the likelihood that compromises will be detected and contained
+and also ensures that any residual data, such as caches or local volumes mounted for temp files,
+stays within its security zone.
+In larger-scale environments with hundreds of hosts and thousands of containers, this grouping
+must be automated to be practical to operationalize. Fortunately, container technologies typically
+include some notion of being able to group apps together, and container security tools can use
+attributes like container names and labels to enforce security policies across them.
+
+4. Adopt container-specific vulnerability management tools and processes for images to
+prevent compromises
+
+ Organizations should adopt tools and processes to validate and enforce
+compliance with secure configuration best practices for images. This should include having
+centralized reporting and monitoring of the compliance state of each image, and preventing noncompliant images from being run.
+
+5. Consider using hardware-based countermeasures to provide a basis for trusted computing
