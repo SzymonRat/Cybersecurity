@@ -100,6 +100,34 @@ outdated.
 
 8. Orchestrator configuration defects
 
+9. Host OS file system tempering
+
+10. Improper user access rights
+
+11. Host OS component vulnerabilities
+
+12. Shared kernel
+
+13. Rogue containers
+
+14. App vulnerabilities
+
+15. Insecure container runtime configuration
+
+16. Unbound network access from containers
+
+17. Orchestrator Node trust
+
+18. Mixing of workload sensitivity
+
+19. Poorly separated inter-container traffic
+
+20. Unauthorized access
+
+21. Unbound administrative access
+=============================================================
+
+
 
 
 
