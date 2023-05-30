@@ -5,7 +5,7 @@ popular due to advances in its ease of use and a greater focus on developer agil
 benefit. Today’s OS virtualization technologies are primarily focused on providing a portable,
 reusable, and automatable way to package and run applications
 
-The following can help reduce the risk associated with container breaches:
+The following methoda can help increase a security of the application containers:
 
 1. Tailor the organization’s operational culture and technical processes to support the new
 way of developing, running, and supporting applications made possible by containers
@@ -42,3 +42,83 @@ compliance with secure configuration best practices for images. This should incl
 centralized reporting and monitoring of the compliance state of each image, and preventing noncompliant images from being run.
 
 5. Consider using hardware-based countermeasures to provide a basis for trusted computing
+
+6. Use container-aware runtime defense tool
+
+    Deploy and use a dedicated container security solution capable of preventing, detecting, and
+responding to threats aimed at containers during runtime. Traditional security solutions, such as
+intrusion prevention systems (IPSs) and web application firewalls (WAFs), often do not provide
+suitable protection for containers. They may not be able to operate at the scale of containers,
+manage the rate of change in a container environment, and have visibility into container activity.
+Utilize a container-native security solution that can monitor the container environment and
+provide precise detection of anomalous and malicious activity within it.
+
+======================================================================================
+
+Every host OS used for running containers has binaries that establish and maintain the
+environment for each container, also known as the container runtime. The container runtime
+coordinates multiple OS components that isolate resources and resource usage so that each
+container sees its own dedicated view of the OS and is isolated from other containers running
+concurrently. Effectively, the containers and the host OS interact through the container runtime.
+The container runtime also provides management tools and application programming interfaces
+(APIs) to allow DevOps personnel and others to specify how to run containers on a given host.
+The runtime eliminates the need to manually create all the necessary configurations and
+simplifies the process of starting, stopping, and operating containers. Examples of runtimes
+include Docker , rkt , and the Open Container Initiative Daemon 
+
+Examples of technical capabilities the container runtime ensures the host OS provides include
+the following:
+
+ 1. Namespace isolation
+ 
+ 2. Resource allocation
+ 
+ 3. Filesystem virtualization
+ 
+ 
+================================================================================================
+
+Major risk for core components for container technologies:
+
+1. Image vulnerabilities
+  
+     Because images are effectively static archive files that include all the components used to run a
+given app, components within an image may be missing critical security updates or are otherwise
+outdated.
+
+2. Image configuration defects
+
+3. Embedded malware
+
+4. Embedded clear text secrets
+
+5. Use od untrusted images
+
+6. Insecure connections to regsitries
+
+7. Insufficient authentication & authorization restrictions
+
+8. Orchestrator configuration defects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
