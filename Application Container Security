@@ -215,11 +215,51 @@ higher CVSS rating from being run.
 Container LIfecycle Security COnsiderations
 
 
+1. Initiation Phase
 
+Organizations should consider how other security policies may be affected by containers and
+adjust these policies as needed to take containers into consideration. For example, policies for
+incident response (especially forensics) and vulnerability management may need to be adjusted
+to take into account the special requirements of containers.
 
+2. Planning and Design Phase
 
+The primary container-specific consideration for the planning and design phase is forensics.
+Because containers mostly build on components already present in OSs, the tools and techniques
+for performing forensics in a containerized environment are mostly an evolution of existing
+practices. The immutable nature of containers and images can actually improve forensic
+capabilities because the demarcation between what an image should do and what actually
+occurred during an incident is clearer. For example, if a container launched to run a web server
+suddenly starts a mail relay, it is very clear that the new process was not part of the original
+image used to create the container. On traditional platforms, with less separation between the OS
+and apps, making this differentiation can be much more difficult.
 
+3. Implementation Phase
 
+After the container technology has been designed, the next step is to implement and test a
+prototype of the design before putting the solution into production. Be aware that container
+technologies do not offer the types of introspection capabilities that VM technologies do.
+
+4. Operations and Maintenance Phase
+
+Operational processes that are particularly important for maintaining the security of container
+technologies, and thus should be performed regularly, include updating all images and
+distributing those updated images to containers to take the place of older images. Other security
+best practices, such as performing vulnerability management and updates for other supporting
+layers like hosts and orchestrators, are also key ongoing operational tasks. Container security and
+monitoring tools should similarly be integrated with existing security information and event
+management (SIEM) tools to ensure container-related events flow through the same tools and
+processes used to provide security throughout the rest of the environment.
+
+5. Disposition Phase
+
+The ability for containers to be deployed and destroyed automatically based on the needs of an
+app allows for highly efficient systems but can also introduce some challenges for records
+retention, forensic, and event data requirements. Organizations should make sure that appropriate
+mechanisms are in place to satisfy their data retention policies. Examples of issues that should be
+addressed are how containers and images should be destroyed, what data should be extracted
+from a container before disposal and how that data extraction should be performed, how
+cryptographic keys used by a container should be revoked or deleted, etc. 
 
 
 
