@@ -37,7 +37,7 @@ Most cloud data theft attacks are the result of a cloud identity compromise, imp
 overexposed credential. Cloud data theft attacks can be difficult to detect as they commonly involve detecting
 anomalous activity being performed using authenticated identities
 
-Threat hunting actions/Indicators of compromised:
+Threat hunting actions/Indicators of compromise:
  
   - look for suspicious cloud application data usage spikes
   - suspicious provisioning of permissions to allow remote access
@@ -50,7 +50,7 @@ Investigation actions:
  
    - determine if data is properly secured
    - ensure that no annoymous acess to data is allowed
-   - revies access control lists
+   - review access control lists
    - determine if any cloud app got new permissions to the data
    -determine if data was stolen using compromised credentials
    - in Azure Active Directory, search audit logs for any illegitimate accounts, role chanes, approvals
@@ -60,6 +60,33 @@ Investigation actions:
    - review any apps that may have been granted ttenant-wide permission by the identity
    - use Azure Active Directory Activity Logs in Axure Monitor and the IdentityLogonEvents
    -Consider creating custom detecting rules
+   
+   
+   =====================================================================
+   
+   Device compromise
+   
+   This attack can occur when a user is tricked into installing malware or if an attacker gains the ability to log onto a device
+due to a vulnerability or overexposure
 
+Threat hunting actions/Indicator of compromise:
+
+ - Unusual time of login to the device
+ - burst of the login activity to the device
+ - search for rare or suspicious persistance mechanism e.g cron jobs, scheduled tasks
+ 
+ 
+Investigation actions:
+
+- check for evidance of a logon using potentially compromised credentials
+- determine if an attacker tricked the user to get an access
+- check if the identity as identified in any known password breaches
+- check if the compromised account runs with administrator/root privileges
+- check if the compromsied account runs with the elevated privileges on any other system within the enterprise
+- review group membership of the compromsied account
+- determine if attacker compromsied any PKI
+-determine if any malare alerts were recently raised for the device
+- review software installed on the device
+-review process running on the device
 
 
