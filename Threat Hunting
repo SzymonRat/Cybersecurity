@@ -1,0 +1,31 @@
+Benefits of the proactive threat hunting
+
+Proactive threat hunting is built around an “assume breach” mindset rather than a
+traditional approach of waiting for endpointvdetection tools to identify potential threats.
+While the latter approach works for automated and well-known attacks, today’s humanoperated attacks are more complex. Proactive
+threat hunting helps to uncover hidden security threats that hide in your environment and
+discover vulnerabilities
+
+==================================================================
+
+XDR and Zero Trust
+
+Extended detection and response, often abbreviated as XDR, is a fully integrated set of security
+tools that offers holistic, optimized security by integrating security products and data into
+simplified solutions. XDR combines prevention, detection, investigation, and response, providing
+visibility, analytics, correlated incident alerts, and automated responses to improve data
+security and combat threats.
+A modern organization’s cybersecurity assets span a variety of first-party and third-party networks,
+applications, cloud databases, mobile devices, and identities. The digital perimeter as it exists now
+is a dynamic and ever-evolving landscape
+
+Besides XDR, one of the best ways to move beyond endpoints is to follow the principles of Zero
+Trust. The main tenets of a Zero Trust philosophy are to authenticate and authorize access every
+time, limit user access to just what they need for what they’re working on and assume breach by
+implementing end-to-end encryption verification and analytics in threat detection efforts.
+A Zero Trust approach should extend throughout the entire digital estate and serve as an
+integrated security philosophy and end-to-end strategy. This is done by implementing Zero Trust
+controls and technologies across six foundational elements – Identity, Endpoints, Data, Apps,
+Infrastructure, and Network. Each of these is a source of signal, a control plane for enforcement,
+and a critical resource to be defended.
+
