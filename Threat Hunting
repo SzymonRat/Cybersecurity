@@ -71,7 +71,7 @@ due to a vulnerability or overexposure
 
 Threat hunting actions/Indicator of compromise:
 
- - Unusual time of login to the device
+ - Unusual time and location of login to the device
  - burst of the login activity to the device
  - search for rare or suspicious persistance mechanism e.g cron jobs, scheduled tasks
  
@@ -89,4 +89,24 @@ Investigation actions:
 - review software installed on the device
 -review process running on the device
 
+===============================================================================
 
+Office 365 mailbox compromise
+
+Email is a top target of attackers looking to steal sensitive
+information, send fraudulent invoices, or use your email
+address to trick your business partners into trusting an
+otherwise immediately suspicious message. 
+
+Threat hunting actions/Indicators of compromise:
+
+ -unusual time and location of login
+ -burst of the login activity
+ -unusual inbox rules
+ 
+ Investigation actions:
+ 
+ - determine the identity used to logon to the mailbox
+ - determine if the loged identity is and owner/administrator/delegate
+ -check ffor the multiple failed login attempts
+ -check if any suspicious inbox rules ere created
