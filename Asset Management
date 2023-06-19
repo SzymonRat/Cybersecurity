@@ -155,3 +155,16 @@ engineer
 As people assets are identified, information about those assets will need to be collected.
 Type of information that should be collected when identyfing people asset
 
+
+============================================================================================================================================
+Name | Position      | Level of Experience | Educational Qualifications | Knowledge           |skills                   | Certifications
+============================================================================================================================================
+abc | Service design | 8 years             | B.S in CS                 | .Net development,    | Technical documentation | N/A
+       manager                                                            source code control
+=============================================================================================================================================
+XYZ | Project manager | 10 years           | B.S in engineering        | Critical path mapping | Microsoft project      |  PMP
+=============================================================================================================================================
+DFG | Service developer | 5 years           |B.S in CS                 | SDLC, Agile, .Net developmnet | Technical deocumentation | MCPD
+============================================================================================================================================
+
+
