@@ -151,7 +151,7 @@ Operational     | Yes         | No         | Yes      | yes
 engineer        
 =============================================================
 
-
+-------------------------------------------------------------------------------------------------------
 As people assets are identified, information about those assets will need to be collected.
 Type of information that should be collected when identyfing people asset
 
@@ -167,7 +167,7 @@ XYZ | Project manager | 10 years           | B.S in engineering        | Critica
 DFG | Service developer | 5 years           |B.S in CS                 | SDLC, Agile, .Net developmnet | Technical deocumentation | MCPD
 ============================================================================================================================================
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 Information assets must be carefully mapped to each critical service. This information may include not only
 the technical documentation involved in supporting the service, but also the actual information contained
 within the database or record structure itself. Information assets to consider also include
@@ -186,3 +186,40 @@ inventoried, cataloged, and archived in accordance with the organization’s pol
 compliance requirements.Information within an organization may be bound by retention requirements that
 must be carefully monitored to ensure that only the essential information required for the execution of that 
 critical service is maintained for the specified timeline
+
+Keeping too much or too little information introduces
+additional risk to the organization that must be avoided. Keeping too much information ties up resources and
+adds cost to the overall operation. Keeping too little information may open the organization to a variety of
+fines or other punitive measures as spelled out under an applicable regulatory regime.
+
+The data custodian must also ensure that appropriate controls are enacted to protect the information assets of
+the critical service. Enterprise- and service-level controls should be defined, implemented, and assessed to
+ensure that the appropriate level of confidentiality, integrity, and availability of the information assets are
+maintained.
+The organization’s policies should clearly spell out these controls.
+At all times, a data custodian should know exactly who has access to the types of information under the
+custodian’s purview. This access should be periodically reviewed by internal audit or an independent
+organization to ensure compliance with stated policy and with legal and regulatory requirements. All changes
+to the access level of an individual must be formally documented and approved.
+Organizations should consider implementing access control measures to protect their information assets.
+Access control models include
+• identity-based access control (IBAC)
+• role-based access control (RBAC)
+• attribute-based access control (ABAC)
+
+-----------------------------------------------------------------------------------------------------------------
+The technology assets should include all components involved in delivering or supporting a critical service,
+whether a traditional information technology asset or an operational technology asset. Identifying the systems
+on which a critical service relies is essential to understanding the service’s resilience posture
+
+---------------------------------------------------------------------------------------------------------------------
+As the facility assets are identified, the organization should be cognizant of how that facility affects the
+services it performs. The organization should prioritize the facilities so that it can focus resources on the
+facilities that affect the critical services first. This prioritization should be periodically reviewed and updated
+on a schedule determined by the organization
+It is essential to identify the primary owner and custodian for the facility assets involved in supporting a
+critical service. The responsibility for a facility asset may not fall under a traditional operational department
+and may be considered an ancillary service to the organization. In planning for resilience, it is important to
+document the facility assets and help highlight their involvement in supporting the critical service. When
+designing their services, key stakeholders may not have considered the importance of the infrastructure or
+facilities. The organization should ensure that its resilience requirements will be met by any new facilities
