@@ -276,4 +276,32 @@ Infomration sensitvity level | Ensures a handling of infomration  at varying sen
 
 Tools for managing technology asset
 
+Changes to technology include refreshes, addition of new technical components, changes to existing technical
+components, and the elimination or retirement of existing technology
+
+-----------------------------------------------------------------------------------------------------
+Tools              | Benefit
+--------------------------------------------------------------------------------------------------
+Refresh program    |  Ensures organization's technology remains current
+-------------------------------------------------------------------------------------------------
+Configuration      | Ensures rapid deployment of technology to avoid failure
+baselinse     
+-----------------------------------------------------------------------------------------------
+Asset database      | Enables the organizations to uniquely identify, locate and document its
+                      technology asset
+------------------------------------------------------------------------------------------
+Network map       |  Providdes snapshot of what is connected to the network
+                     helps determine relationships between assets
+------------------------------------------------------------------------------------
+
+===========================================================================================================
+
+Tools for managing facilitiy asset
+
+Changes to facilities include the addition of new facilities (owned by the organization or external business
+partner), alteration of existing facilities, and the retirement of a facility
+
+----------------------------------------------------------------------------------------
+Tools    |   Benefit
+---------------------------------------------------------------------------------------
 
