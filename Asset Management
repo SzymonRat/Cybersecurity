@@ -228,7 +228,7 @@ facilities. The organization should ensure that its resilience requirements will
 
 =======================================================================================================================
 
-Managing people asset
+Tools for managing people asset
 
 Staffs change in many ways, including adding new staff members (internally or externally), transferring staff
 from one organizational unit to another, and terminating staff
@@ -249,3 +249,27 @@ job description          Facilities performance review
 -------------------------------------------------------------------------------------------
 Exit interview          | Provides insight on improvements that can be made within the organization
 -------------------------------------------------------------------------------------------------
+
+=======================================================================================================
+
+Tools for managing infromation asset
+
+Changes to information include the creation, alteration, or deletion of paper and electronic records, files, and
+databases
+
+---------------------------------------------------------------------------------------------
+Tools                |  Benefit
+----------------------------------------------------------------------------------------------
+Document database    | Information stored in a central location
+                       Con be configured controlled
+---------------------------------------------------------------------------------------------
+Information disposal  | Provides clear expectations for dispoal information
+policy                
+------------------------------------------------------------------------------------------------
+Numbering system     |  Uniquely identified information
+                        Version can be tracked by revision level
+------------------------------------------------------------------------------------------------
+Infomration sensitvity level | Ensures a handling of infomration  at varying sensitivity level
+---------------------------------------------------------------------------------------------------------
+
+
