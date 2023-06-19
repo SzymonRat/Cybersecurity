@@ -1,0 +1,53 @@
+Asset management establishes an organization’s inventory of high-value assets and defines how these assets
+are managed during their lifecycle to ensure sustained productivity in support of the organization’s critical
+services.  We can define four broad categories of assets: people, information, technology, and facilities. An
+event that disrupts an asset can inhibit the organization from achieving its mission. An asset management
+program helps identify appropriate strategies that will allow the assets to maintain productivity during
+disruptive events.
+The Asset Management domain focuses on the processes by which an organization plans, identifies,
+documents, and manages the assets within the organization.
+ Planning for asset management includes obtaining support from higher level management to ensure that the process is funded,
+staffed, and performed. Key activities include identifying all the mission-critical services the organization
+performs or provides and prioritizing them according to their potential to disrupt operations should they fail.
+The organization can then focus its resources to appropriately protect and sustain its assets. Finally, planning
+for asset management requires the organization to establish a common definition of what constitutes an asset
+within its infrastructure. 
+
+Important activities while planning for asset management:
+• Obtain support for asset management planning.
+• Identify services.
+• Prioritize services.
+• Establish a common definition of assets.
+
+
+Important activities while identifying assets include the following:
+• Assign responsibility for identifying assets supporting critical services.
+• Identify people assets.
+• Identify information assets.
+• Identify technology assets.
+• Identify facility assets.
+
+
+Once these assets have been identified, it is important to document them in order to understand their
+relationship to the organization (e.g., internal, external), who is responsible for the asset, how well the asset is
+protected from disruption, how important the asset is to the critical service, and any changes or updates that
+may affect the asset throughout its lifecycle.
+This documentation typically includes the following:
+• asset type (people, information, technology, or facilities)
+• categorization of asset by sensitivity (generally for information assets only)
+• asset location (typically where the custodian is managing the asset)
+• asset owners and custodians (especially if assets are external to the organization) 
+format or form of the asset (particularly for information assets that might exist on paper or electronically)
+• location of asset backups or duplicates (particularly for information assets)
+• services that are dependent on the asset5
+• value of the asset, either qualitative or quantitative
+• asset protection and sustainment requirements
+
+
+
+Important activities while documenting assets include the following:
+• Create an asset inventory.
+• Document the relationships between assets and critical services.
+• Analyze dependencies between assets supporting multiple services.
+• Update the asset inventory.
+
