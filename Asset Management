@@ -110,7 +110,9 @@ services, the organization should consider the following:
 • service/business continuity plans
 • consequences of risks to services identified during risk assessment activities
 • strategic objectives
-• safety classification
+• presence of the backup
+• value fo the asset
+
 
 Once the organization has prioritized its services, it should document this information in the documentation
 tool
@@ -223,3 +225,27 @@ and may be considered an ancillary service to the organization. In planning for 
 document the facility assets and help highlight their involvement in supporting the critical service. When
 designing their services, key stakeholders may not have considered the importance of the infrastructure or
 facilities. The organization should ensure that its resilience requirements will be met by any new facilities
+
+=======================================================================================================================
+
+Managing people asset
+
+Staffs change in many ways, including adding new staff members (internally or externally), transferring staff
+from one organizational unit to another, and terminating staff
+
+-----------------------------------------------------------------------------------
+Tool                  |   benefit
+-----------------------------------------------------------------------------------
+Organization chart    | Easy of maintenance
+                        Pictorial representation of where people asset reside
+-------------------------------------------------------------------------------------
+Performace review     | Scheduled review
+                        Skill gaps can be identified, addressed and documented
+----------------------------------------------------------------------------------------
+succession planing     | Devlops people assets to be future leaders of the organization
+-------------------------------------------------------------------------------------------
+Title and associated   | Clearly defines specific roles
+job description          Facilities performance review
+-------------------------------------------------------------------------------------------
+Exit interview          | Provides insight on improvements that can be made within the organization
+-------------------------------------------------------------------------------------------------
