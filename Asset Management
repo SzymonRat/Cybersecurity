@@ -168,3 +168,21 @@ DFG | Service developer | 5 years           |B.S in CS                 | SDLC, A
 ============================================================================================================================================
 
 
+Information assets must be carefully mapped to each critical service. This information may include not only
+the technical documentation involved in supporting the service, but also the actual information contained
+within the database or record structure itself. Information assets to consider also include
+• key configuration requirements for supporting systems (e.g., identity and access management permissions,
+DNS entries)
+• periodic batch processes that must be run to maintain peak performance
+• back-up scripts that provide snapshots of the critical information
+• proprietary algorithms developed internally that provide unique capability for the organization
+• software licensing and purchasing documentation
+• vendor support agreements and the people authorized to contact the vendor
+• access requirements for each information asset
+
+Data custodian takes a responsibility for the saefty of data that's why 
+a data custodian should be assigned to each critical service to ensure this information is appropriately
+inventoried, cataloged, and archived in accordance with the organization’s policies and any regulatory or legal
+compliance requirements.Information within an organization may be bound by retention requirements that
+must be carefully monitored to ensure that only the essential information required for the execution of that 
+critical service is maintained for the specified timeline
