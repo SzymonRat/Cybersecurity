@@ -51,3 +51,34 @@ Important activities while documenting assets include the following:
 • Analyze dependencies between assets supporting multiple services.
 • Update the asset inventory.
 
+===================================================================================
+
+Step 1. Obtain support for asset management planning.
+
+Obtaining support from management is essential to ensuring that the asset management plan is effectively
+implemented. A top-down approach often helps the asset management program meet the resilience objectives
+of the organization. Management can demonstrate support by providing appropriate funding, oversight, and
+staffing. A top-down approach also enables a consistent methodology for asset management to be implemented
+across organizational boundaries
+The level of management support required depends on where assets reside within the organization. For an asset
+management plan that addresses the entire organization, support at the senior executive level is necessary.
+Smaller implementations, such as those at the service level, may only require sponsorship from the
+management responsible for that particular service
+
+Step 2. Identify services.
+
+Identifying assets within an organization can be a daunting task, so the organization should first identify the
+services it provides. It can then identify assets by the services they support and divide the body of assets into
+manageable pieces
+To facilitate the work done during this step of the process, the organization should consider a method of
+documentation to keep track of the identified services. This can include documenting in a spreadsheet, a
+configuration-controlled document, or a database
+
+Step 3. Prioritize services. 
+
+After the organization has identified all of the services it provides, it should then prioritize those services.
+High-value services are services that are critical to the success of the organization’s mission.7 Their failure
+may prevent the organization from meeting strategic objectives
+
+
+
