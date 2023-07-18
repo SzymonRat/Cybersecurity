@@ -86,7 +86,7 @@ internal and external entities. Potential candidates include
 
 Step 4 List of externally imposed requirements that must be met
 
-Step 4. Identification of an asset.
+Step 5 List of an asset.
 
 Identifying assets within an organization can be a daunting task, so the organization should first identify the
 services it provides. It can then identify assets by the services they support and divide the body of assets into
@@ -280,7 +280,7 @@ documentation when changes occur:
 • strategies and continuity plans for sustaining assets and services
 
 
-Step 5. Prioritization. 
+Step 6. Prioritization. 
 
 After the organization has identified all of the services it provides, it should then prioritize those services.
 High-value services are services that are critical to the success of the organization’s mission.7 Their failure
@@ -302,9 +302,9 @@ tool
 By properly prioritizing services, an organization can proportionately allocate budget and resources for
 resilience activities with the services that matter most, such as identifying assets.
 
-============================================================================================
 
-Step 6 .Assignment of responsibilities (mapping asset -> stakeholder)
+
+Step 7 .Assignment of responsibilities (mapping asset -> stakeholder)
 
 The relationships between  individuals and each asset type can be further illustrated using a Responsible,
 Accountable, Consulted, Informed (RACI) Matrix; where
@@ -339,7 +339,7 @@ engineer
 
 
 
-Step 7 Budget constrains/information
+Step 8 Budget constrains/information
 
 
 
