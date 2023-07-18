@@ -53,7 +53,11 @@ Important activities while documenting assets include the following:
 
 ===================================================================================
 
-Step 1. Obtain support for asset management planning.
+The asset management document must have the following
+
+Step 1. Scope statement - defines if the document is meant to be company-wide or only for the particual department
+
+Step 2. Management approval.
 
 Obtaining support from management is essential to ensuring that the asset management plan is effectively
 implemented. A top-down approach often helps the asset management program meet the resilience objectives
@@ -65,13 +69,30 @@ management plan that addresses the entire organization, support at the senior ex
 Smaller implementations, such as those at the service level, may only require sponsorship from the
 management responsible for that particular service
 
-Step 2. Identify services.
+
+Step 3. List of stakeholders 
+
+The list of stakeholders should be aligned tothescopingstatement and include allappropriate
+internal and external entities. Potential candidates include
+• executive and senior management
+• heads of business lines, especially critical services owners
+• information technology
+• legal
+• board of directors
+• technology vendors
+• regulators and auditors
+• compliance personnel
+
+
+Step 4 List of externally imposed requirements that must be met
+
+Step 4. Identification of an asset.
 
 Identifying assets within an organization can be a daunting task, so the organization should first identify the
 services it provides. It can then identify assets by the services they support and divide the body of assets into
 manageable pieces
 
-We can distingusih the follwoing type of the asset:
+We can distingusih the following type of the asset:
 
 - people People assets are the vital staff who operate and monitor the organization’s services. People who are internal to
 the organization (and sometimes people who are external) are in charge of executing processes and procedures
@@ -79,8 +100,108 @@ to ensure that the services are achieving the organization’s mission. When ide
 operation of a service rather than the actual person in that role. It is suggested that each role contain a defined
 list of the functions or responsibilities required in the performance of that role
 
+As people assets are identified, information about those assets will need to be collected.
+Type of information that should be collected when identyfing people asset
+
+
+============================================================================================================================================
+Name | Position      | Level of Experience | Educational Qualifications | Knowledge           |skills                   | Certifications
+============================================================================================================================================
+abc | Service design | 8 years             | B.S in CS                 | .Net development,    | Technical documentation | N/A
+       manager                                                            source code control
+=============================================================================================================================================
+XYZ | Project manager | 10 years           | B.S in engineering        | Critical path mapping | Microsoft project      |  PMP
+=============================================================================================================================================
+DFG | Service developer | 5 years           |B.S in CS                 | SDLC, Agile, .Net developmnet | Technical deocumentation | MCPD
+============================================================================================================================================
+
+
+Tools for managing people asset
+
+Staffs change in many ways, including adding new staff members (internally or externally), transferring staff
+from one organizational unit to another, and terminating staff
+
+-----------------------------------------------------------------------------------
+Tool                  |   benefit
+-----------------------------------------------------------------------------------
+Organization chart    | Easy of maintenance
+                        Pictorial representation of where people asset reside
+-------------------------------------------------------------------------------------
+Performace review     | Scheduled review
+                        Skill gaps can be identified, addressed and documented
+----------------------------------------------------------------------------------------
+succession planing     | Devlops people assets to be future leaders of the organization
+-------------------------------------------------------------------------------------------
+Title and associated   | Clearly defines specific roles
+job description          Facilities performance review
+-------------------------------------------------------------------------------------------
+Exit interview          | Provides insight on improvements that can be made within the organization
+-------------------------------------------------------------------------------------------------
+
+
+
+
 -Information Information assets are any information or data, on any media, required for the successful operation of an
 organizational service. An information asset can also be the output or by-product of a service
+The data custodian must also ensure that appropriate controls are enacted to protect the information assets of
+the critical service. Enterprise- and service-level controls should be defined, implemented, and assessed to
+ensure that the appropriate level of confidentiality, integrity, and availability of the information assets are
+maintained.
+The organization’s policies should clearly spell out these controls.
+Information assets must be carefully mapped to each critical service. This information may include not only
+the technical documentation involved in supporting the service, but also the actual information contained
+within the database or record structure itself. Information assets to consider also include
+• key configuration requirements for supporting systems (e.g., identity and access management permissions,
+DNS entries)
+• periodic batch processes that must be run to maintain peak performance
+• back-up scripts that provide snapshots of the critical information
+• proprietary algorithms developed internally that provide unique capability for the organization
+• software licensing and purchasing documentation
+• vendor support agreements and the people authorized to contact the vendor
+• access requirements for each information asset
+
+Data custodian takes a responsibility for the saefty of data that's why 
+a data custodian should be assigned to each critical service to ensure this information is appropriately
+inventoried, cataloged, and archived in accordance with the organization’s policies and any regulatory or legal
+compliance requirements.Information within an organization may be bound by retention requirements that
+must be carefully monitored to ensure that only the essential information required for the execution of that 
+critical service is maintained for the specified timeline
+
+Keeping too much or too little information introduces
+additional risk to the organization that must be avoided. Keeping too much information ties up resources and
+adds cost to the overall operation. Keeping too little information may open the organization to a variety of
+fines or other punitive measures as spelled out under an applicable regulatory regime.
+At all times, a data custodian should know exactly who has access to the types of information under the
+custodian’s purview. This access should be periodically reviewed by internal audit or an independent
+organization to ensure compliance with stated policy and with legal and regulatory requirements. All changes
+to the access level of an individual must be formally documented and approved.
+Organizations should consider implementing access control measures to protect their information assets.
+Access control models include
+• identity-based access control (IBAC)
+• role-based access control (RBAC)
+• attribute-based access control (ABAC)
+
+Tools for managing infromation asset
+
+Changes to information include the creation, alteration, or deletion of paper and electronic records, files, and
+databases
+
+---------------------------------------------------------------------------------------------
+Tools                |  Benefit
+----------------------------------------------------------------------------------------------
+Document database    | Information stored in a central location
+                       Con be configured controlled
+---------------------------------------------------------------------------------------------
+Information disposal  | Provides clear expectations for dispoal information
+policy                
+------------------------------------------------------------------------------------------------
+Numbering system     |  Uniquely identified information
+                        Version can be tracked by revision level
+------------------------------------------------------------------------------------------------
+Infomration sensitvity level | Ensures a handling of infomration  at varying sensitivity level
+---------------------------------------------------------------------------------------------------------
+
+
 
 -Technology Technology assets include software, hardware, firmware, and any physical interconnections. Technology assets
 can reside anywhere within an organization, and it is up to the organization to determine how it describes the
@@ -89,16 +210,77 @@ components such as routers, servers, and switches can be identified. The organiz
 the personal computing devices such as PCs, laptops, and tablets. Identifying broad categories gives the
 organization a starting point for uniquely identifying all of the devices within its infrastructure as well as set
 boundaries for controls management.
+The technology assets should include all components involved in delivering or supporting a critical service,
+whether a traditional information technology asset or an operational technology asset. Identifying the systems
+on which a critical service relies is essential to understanding the service’s resilience posture
+
+
+Tools for managing technology asset
+
+Changes to technology include refreshes, addition of new technical components, changes to existing technical
+components, and the elimination or retirement of existing technology
+
+-----------------------------------------------------------------------------------------------------
+Tools              | Benefit
+--------------------------------------------------------------------------------------------------
+Refresh program    |  Ensures organization's technology remains current
+-------------------------------------------------------------------------------------------------
+Configuration      | Ensures rapid deployment of technology to avoid failure
+baselinse     
+-----------------------------------------------------------------------------------------------
+Asset database      | Enables the organizations to uniquely identify, locate and document its
+                      technology asset
+------------------------------------------------------------------------------------------
+Network map       |  Providdes snapshot of what is connected to the network
+                     helps determine relationships between assets
+------------------------------------------------------------------------------------
 
 -facilities Facility assets are any physical plant an organization relies on when delivering or performing a service.
 Facilities can be owned and controlled by the organization or be under the control of external business
 partners
+As the facility assets are identified, the organization should be cognizant of how that facility affects the
+services it performs. The organization should prioritize the facilities so that it can focus resources on the
+facilities that affect the critical services first. This prioritization should be periodically reviewed and updated
+on a schedule determined by the organization
+It is essential to identify the primary owner and custodian for the facility assets involved in supporting a
+critical service. The responsibility for a facility asset may not fall under a traditional operational department
+and may be considered an ancillary service to the organization. In planning for resilience, it is important to
+document the facility assets and help highlight their involvement in supporting the critical service. When
+designing their services, key stakeholders may not have considered the importance of the infrastructure or
+facilities. The organization should ensure that its resilience requirements will be met by any new facilities
 
-To facilitate the work done during this step of the process, the organization should consider a method of
-documentation to keep track of the identified services. This can include documenting in a spreadsheet, a
-configuration-controlled document, or a database
+Tools for managing facilitiy asset
 
-Step 3. Prioritize services. 
+Changes to facilities include the addition of new facilities (owned by the organization or external business
+partner), alteration of existing facilities, and the retirement of a facility
+
+----------------------------------------------------------------------------------------
+Tools    |   Benefit
+---------------------------------------------------------------------------------------
+As-built drawings | Graphically depicts current configuration within the facility
+--------------------------------------------------------------------------------------
+Preventive         |  Ensures that facility infrastructure is maintained on a consistent
+maintenance schedule|  basis, extending its life to support the service
+---------------------------------------------------------------------------------------
+Database        | Enables the organizations to uniquely identify, locate and document its 
+                  facility asset
+-----------------------------------------------------------------------------------------
+
+
+After the organization determines which tools to use for managing its assets, it should focus on keeping the
+asset inventory current. A current asset inventory is critical to ensuring that high-value services achieve their
+missions.
+To keep asset inventories current, the organization should regularly update the following types of
+documentation when changes occur:
+• asset documentation
+• asset profiles
+• asset inventory status
+• asset and service resilience requirements
+• asset and service protection strategies and controls
+• strategies and continuity plans for sustaining assets and services
+
+
+Step 5. Prioritization. 
 
 After the organization has identified all of the services it provides, it should then prioritize those services.
 High-value services are services that are critical to the success of the organization’s mission.7 Their failure
@@ -121,6 +303,8 @@ By properly prioritizing services, an organization can proportionately allocate 
 resilience activities with the services that matter most, such as identifying assets.
 
 ============================================================================================
+
+Step 6 .Assignment of responsibilities (mapping asset -> stakeholder)
 
 The relationships between  individuals and each asset type can be further illustrated using a Responsible,
 Accountable, Consulted, Informed (RACI) Matrix; where
@@ -153,175 +337,11 @@ Operational     | Yes         | No         | Yes      | yes
 engineer        
 =============================================================
 
--------------------------------------------------------------------------------------------------------
-As people assets are identified, information about those assets will need to be collected.
-Type of information that should be collected when identyfing people asset
 
 
-============================================================================================================================================
-Name | Position      | Level of Experience | Educational Qualifications | Knowledge           |skills                   | Certifications
-============================================================================================================================================
-abc | Service design | 8 years             | B.S in CS                 | .Net development,    | Technical documentation | N/A
-       manager                                                            source code control
-=============================================================================================================================================
-XYZ | Project manager | 10 years           | B.S in engineering        | Critical path mapping | Microsoft project      |  PMP
-=============================================================================================================================================
-DFG | Service developer | 5 years           |B.S in CS                 | SDLC, Agile, .Net developmnet | Technical deocumentation | MCPD
-============================================================================================================================================
-
---------------------------------------------------------------------------------------------------------------------------------------------
-Information assets must be carefully mapped to each critical service. This information may include not only
-the technical documentation involved in supporting the service, but also the actual information contained
-within the database or record structure itself. Information assets to consider also include
-• key configuration requirements for supporting systems (e.g., identity and access management permissions,
-DNS entries)
-• periodic batch processes that must be run to maintain peak performance
-• back-up scripts that provide snapshots of the critical information
-• proprietary algorithms developed internally that provide unique capability for the organization
-• software licensing and purchasing documentation
-• vendor support agreements and the people authorized to contact the vendor
-• access requirements for each information asset
-
-Data custodian takes a responsibility for the saefty of data that's why 
-a data custodian should be assigned to each critical service to ensure this information is appropriately
-inventoried, cataloged, and archived in accordance with the organization’s policies and any regulatory or legal
-compliance requirements.Information within an organization may be bound by retention requirements that
-must be carefully monitored to ensure that only the essential information required for the execution of that 
-critical service is maintained for the specified timeline
-
-Keeping too much or too little information introduces
-additional risk to the organization that must be avoided. Keeping too much information ties up resources and
-adds cost to the overall operation. Keeping too little information may open the organization to a variety of
-fines or other punitive measures as spelled out under an applicable regulatory regime.
-
-The data custodian must also ensure that appropriate controls are enacted to protect the information assets of
-the critical service. Enterprise- and service-level controls should be defined, implemented, and assessed to
-ensure that the appropriate level of confidentiality, integrity, and availability of the information assets are
-maintained.
-The organization’s policies should clearly spell out these controls.
-At all times, a data custodian should know exactly who has access to the types of information under the
-custodian’s purview. This access should be periodically reviewed by internal audit or an independent
-organization to ensure compliance with stated policy and with legal and regulatory requirements. All changes
-to the access level of an individual must be formally documented and approved.
-Organizations should consider implementing access control measures to protect their information assets.
-Access control models include
-• identity-based access control (IBAC)
-• role-based access control (RBAC)
-• attribute-based access control (ABAC)
-
------------------------------------------------------------------------------------------------------------------
-The technology assets should include all components involved in delivering or supporting a critical service,
-whether a traditional information technology asset or an operational technology asset. Identifying the systems
-on which a critical service relies is essential to understanding the service’s resilience posture
-
----------------------------------------------------------------------------------------------------------------------
-As the facility assets are identified, the organization should be cognizant of how that facility affects the
-services it performs. The organization should prioritize the facilities so that it can focus resources on the
-facilities that affect the critical services first. This prioritization should be periodically reviewed and updated
-on a schedule determined by the organization
-It is essential to identify the primary owner and custodian for the facility assets involved in supporting a
-critical service. The responsibility for a facility asset may not fall under a traditional operational department
-and may be considered an ancillary service to the organization. In planning for resilience, it is important to
-document the facility assets and help highlight their involvement in supporting the critical service. When
-designing their services, key stakeholders may not have considered the importance of the infrastructure or
-facilities. The organization should ensure that its resilience requirements will be met by any new facilities
-
-=======================================================================================================================
-
-Tools for managing people asset
-
-Staffs change in many ways, including adding new staff members (internally or externally), transferring staff
-from one organizational unit to another, and terminating staff
-
------------------------------------------------------------------------------------
-Tool                  |   benefit
------------------------------------------------------------------------------------
-Organization chart    | Easy of maintenance
-                        Pictorial representation of where people asset reside
--------------------------------------------------------------------------------------
-Performace review     | Scheduled review
-                        Skill gaps can be identified, addressed and documented
-----------------------------------------------------------------------------------------
-succession planing     | Devlops people assets to be future leaders of the organization
--------------------------------------------------------------------------------------------
-Title and associated   | Clearly defines specific roles
-job description          Facilities performance review
--------------------------------------------------------------------------------------------
-Exit interview          | Provides insight on improvements that can be made within the organization
--------------------------------------------------------------------------------------------------
-
-=======================================================================================================
-
-Tools for managing infromation asset
-
-Changes to information include the creation, alteration, or deletion of paper and electronic records, files, and
-databases
-
----------------------------------------------------------------------------------------------
-Tools                |  Benefit
-----------------------------------------------------------------------------------------------
-Document database    | Information stored in a central location
-                       Con be configured controlled
----------------------------------------------------------------------------------------------
-Information disposal  | Provides clear expectations for dispoal information
-policy                
-------------------------------------------------------------------------------------------------
-Numbering system     |  Uniquely identified information
-                        Version can be tracked by revision level
-------------------------------------------------------------------------------------------------
-Infomration sensitvity level | Ensures a handling of infomration  at varying sensitivity level
----------------------------------------------------------------------------------------------------------
-
-=============================================================================================================
-
-Tools for managing technology asset
-
-Changes to technology include refreshes, addition of new technical components, changes to existing technical
-components, and the elimination or retirement of existing technology
-
------------------------------------------------------------------------------------------------------
-Tools              | Benefit
---------------------------------------------------------------------------------------------------
-Refresh program    |  Ensures organization's technology remains current
--------------------------------------------------------------------------------------------------
-Configuration      | Ensures rapid deployment of technology to avoid failure
-baselinse     
------------------------------------------------------------------------------------------------
-Asset database      | Enables the organizations to uniquely identify, locate and document its
-                      technology asset
-------------------------------------------------------------------------------------------
-Network map       |  Providdes snapshot of what is connected to the network
-                     helps determine relationships between assets
-------------------------------------------------------------------------------------
-
-===========================================================================================================
-
-Tools for managing facilitiy asset
-
-Changes to facilities include the addition of new facilities (owned by the organization or external business
-partner), alteration of existing facilities, and the retirement of a facility
-
-----------------------------------------------------------------------------------------
-Tools    |   Benefit
----------------------------------------------------------------------------------------
-As-built drawings | Graphically depicts current configuration within the facility
---------------------------------------------------------------------------------------
-Preventive         |  Ensures that facility infrastructure is maintained on a consistent
-maintenance schedule|  basis, extending its life to support the service
----------------------------------------------------------------------------------------
-Database        | Enables the organizations to uniquely identify, locate and document its 
-                  facility asset
------------------------------------------------------------------------------------------
+Step 7 Budget constrains/information
 
 
-After the organization determines which tools to use for managing its assets, it should focus on keeping the
-asset inventory current. A current asset inventory is critical to ensuring that high-value services achieve their
-missions.
-To keep asset inventories current, the organization should regularly update the following types of
-documentation when changes occur:
-• asset documentation
-• asset profiles
-• asset inventory status
-• asset and service resilience requirements
-• asset and service protection strategies and controls
-• strategies and continuity plans for sustaining assets and services
+
+
+
