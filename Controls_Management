@@ -5,8 +5,12 @@ The cnotrol managemetn docuemnt must have the following
 
 Step 1. Scope statement 
 
-This statement defines what the controls management program and plan need to address.
-Controls management should cover, at a minimum, all critical organizational services.
+Determines if it's for the entire company or for the particulardepartment
+as well as defines what the goal that we are trying to acheive e.g Our goal is to get
+a better insight into all data packets that are sent within/in/out of hte company
+
+Scopy: Entire company
+Goal: better insight of the data packets
 
 Step 2. Management support/approval
 
@@ -30,9 +34,14 @@ internal and external entities. Potential candidates include
 
 Step 4. List of externally imposed requirements that must be met
 
+Legal and regulatory requirements regarding
+cybersecurity, including privacy and civil liberties obligations
+
 Step 5 List of critical asset
 
-Critical services are services that are critical to the success of the organization’s mission
+Critical asset is an asset that is necessary to the success of the organization’s mission
+To ensure operational resilience, an organization should consider each of the four asset types—people,
+information, technology, and facilities—when developing control objective
 
 Step 6 .Assignment of responsibilities (mapping asset -> stakeholder)
 
@@ -70,6 +79,61 @@ engineer
 
 
 Step 7 Budget constrains/information
+
+The resources available to an organization for controls
+management will influence what controls will be used
+
+
+Step 8 Choosing the controls that will  help to achieve the company's goals
+
+
+administrative controls—Administrative controls typically set and enforce management’s policies and
+have to be paired with technical and physical controls to be effective. Enterprise-level controls are
+often administrative; however, administrative controls can exist at the level of operating units or
+individual services. Examples of administrative controls are
+o governance
+o setting policy
+o monitoring
+o auditing
+o enforcing
+o separation of duties
+o developing and implementing service continuity plans
+
+
+technical controls—These controls are operational in nature and primarily executed through
+information technology components such as hardware, software, and firmware. Examples of
+technical controls are
+o network access control
+
+complex passwords
+o error checking
+o host-based intrusion detection system
+Technical controls can often be more general than those implemented for a specific technology or
+platform. These types of technical controls are referred to as IT General Controls. Within a large
+enterprise, the IT department often provides technical controls as common services to the rest of the
+organization. Often the effective operation of application-specific controls depends on technical
+controls functioning as intended. Examples of IT General Controls are
+o systems development
+o change management
+o security
+o computer operations19
+
+
+
+ physical controls—These are controls for the physical environment and protect people as well as
+facilities and the services and technology within. Examples of physical controls are
+o guards
+o closed circuit television (CCTV)
+o biometric access
+o temperature and humidity control
+
+
+
+An organization can use a single controls development strategy or elements from multiple strategies as
+long as the selected approach aligns with the strategic objectives of the organization
+
+
+All controls can be categorized as administrative, technical, or physical:
 
 The steps are as follows
 1. Obtain management support
