@@ -1,0 +1,86 @@
+Controls management is an intra-organizational governance process that ensures effective achievement of organizational objectives
+and  typically takes place at various levels of an organization
+=================================================================================
+The cnotrol managemetn docuemnt must have the following
+
+Step 1. Scope statement 
+
+This statement defines what the controls management program and plan need to address.
+Controls management should cover, at a minimum, all critical organizational services.
+
+Step 2. Management support/approval
+
+An endorsement by senior management for establishing a controls management program and
+implementing processes
+Acknowledgement from management fortheintended approachtocontrolsmanagement,
+includingstakeholderexpectationsabout acceptable risk tolerance for the identified critical
+assets and services
+
+Step 3. List of stakeholders
+The list of stakeholders should be aligned tothescopingstatement and include allappropriate
+internal and external entities. Potential candidates include
+• executive and senior management
+• heads of business lines, especially critical services owners
+• information technology
+• legal
+• board of directors
+• technology vendors
+• regulators and auditors
+• compliance personnel
+
+Step 4. List of externally imposed requirements that must be met
+
+Step 5 List of critical asset
+
+Critical services are services that are critical to the success of the organization’s mission
+
+Step 6 .Assignment of responsibilities (mapping asset -> stakeholder)
+
+The relationships between  individuals and each asset type can be further illustrated using a Responsible,
+Accountable, Consulted, Informed (RACI) Matrix; where
+
+Responsible -  role manages the asset on a day-to-day basis
+
+Accountable-  role has to answer to higher level management when issues arise with that asset
+
+Consulted - role has specific knowledge of the asset or relies on that asset and needs to provide input
+
+Invformed - role would need to be updated on the activities surrounding that asset
+
+
+===============================================================
+Asset Name e.g| Responsible | Accountable |Consulated |Informed
+e.g server IP |             |             |           |
+================================================================
+VP             | NO          | Yes        | NO        | Yes
+===============================================================
+CTO            | NO          | YES        | NO        | Yes
+==============================================================
+Project manager| No          | Yes        | Yes       | Yes
+==============================================================
+Functional     | Yes         | No         | Yes       | Yes
+manager        
+==============================================================
+Business analys | Yes         | No         | Yes      | Yes
+==============================================================
+Operational     | Yes         | No         | Yes      | yes
+engineer        
+=============================================================
+
+
+
+Step 7 Budget constrains/information
+
+The steps are as follows
+1. Obtain management support
+2. Define controls
+    a) controls can be defined on the followinf levels
+             -enterprise
+             -service
+             -asset
+3. Analyze and deploy controls
+    -veryifing if deployed controls meet the organization's objectives
+    -identify gaps
+    -update controls
+
+4. Assess controls
