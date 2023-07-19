@@ -1,5 +1,7 @@
 Controls management is an intra-organizational governance process that ensures effective achievement of organizational objectives
 and  typically takes place at various levels of an organization
+
+Generally it answers the question: How will you protect an asset you identified during the Asset management phase
 =================================================================================
 The cnotrol managemetn docuemnt must have the following
 
@@ -87,6 +89,11 @@ management will influence what controls will be used
 Step 8 Choosing the controls that will  help to achieve the company's goals
 
 
+An organization can use a single controls development strategy or elements from multiple strategies as
+long as the selected approach aligns with the strategic objectives of the organization
+Establishing an effective mix of controls should be considered as a way to
+keep costs down when developing and evaluating potential control
+
 administrative controls—Administrative controls typically set and enforce management’s policies and
 have to be paired with technical and physical controls to be effective. Enterprise-level controls are
 often administrative; however, administrative controls can exist at the level of operating units or
@@ -98,6 +105,8 @@ o auditing
 o enforcing
 o separation of duties
 o developing and implementing service continuity plans
+o Personel screnning
+o  Access agreement
 
 
 technical controls—These controls are operational in nature and primarily executed through
@@ -111,6 +120,7 @@ o systems development
 o change management
 o security
 o computer operations19
+o network segmentation
 
 
 
@@ -119,7 +129,11 @@ facilities and the services and technology within. Examples of physical controls
 o guards
 o closed circuit television (CCTV)
 o biometric access
-o temperature and humidity control
+o temperature and humidity sensors
+o keys
+o security fence
+o electronic access system
+o fire suspension system
 
 
 Detective controls
@@ -133,16 +147,24 @@ o Software patching & updates
 o User control access
 o Network access control
 o Encryption
+o Firewalls
+o Security awerness training
+o Rules of behaviour
 
 Correective controls - they attempt to reverse the impact of the incident
 o rebooting the system
-o system backup
+o  daily system backup
 o data restoration
+o Drive mirroring
+o Configuration management tools
+o alternate site
 
-An organization can use a single controls development strategy or elements from multiple strategies as
-long as the selected approach aligns with the strategic objectives of the organization
-Establishing an effective mix of controls should be considered as a way to
-keep costs down when developing and evaluating potential control
 
-All controls can be categorized as administrative, technical, or physical:
+Step 9 Control analysis
+
+o Review the existing controls to ensure that new controls are not redundant
+o Review the existing controls to ensure they are still effective
+o Establish new controls to fill the gaps between exsiting and updated controls
+o Assign tesponsibility for implementing new controls
+
 
