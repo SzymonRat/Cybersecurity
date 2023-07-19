@@ -88,19 +88,24 @@ DFG | Service developer | 5 years           |B.S in CS                 | SDLC, A
 
 Asset type: Information
 
-Responsible -  role manages the asset on a day-to-day basis
-
-Accountable-  role has to answer to higher level management when issues arise with that asset
-
-Consulted - role has specific knowledge of the asset or relies on that asset and needs to provide input
-
-Invformed - role would need to be updated on the activities surrounding that asset
 ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-Type of hhe information     Storage location           Backup location    managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset   | Applicable industry standards | Compliance with the industry standards |  Applicable policies/standards                              
+Type of the information   |  Storage location       |    Backup location  |  managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset   | Applicable industry standards | Compliance with the industry standards |  Applicable policies/standards                              
 =====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 bank account numbers     |   MSSQL database,IP:XYZ |           XYZ      |  Name, role.contact                          |   Name,role,contact                                                                   |                 Name, role.contact                                                             |      Name, role.contact                                     |  PCIDSS                       |   Yes/NO/pending                       |  Name of the policy/standard
-
+======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 Employees data            |   Oracle database,IP:XYZ |        XYZ        |  Name, role.contact                          | Name, role.contact                                                                   |  Name, role.contact                                                                                 | Name, role.contact                                     |   GDPR                        |   Yes/NO                                      |                        
+=========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+
+Asset type: Technology
+
+=====================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Name of hte asset |   Location   |  Backup location |   version |  newest  | type of stored data  | managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset | Applicable policies/standards
+
+MySQL database     |  IP: XYZ    | IP:XYZ           |    xyz   |    xyz   |  employees dat        | Name,role,contact                            |   Name,role,contact                                                                   | Name,role,contact                                                                                     |       Name,role,contact                                    |     Name of the policy/standard                                                        
+
+Oracle database     IP: XYZ    | IP:XYZ           |    xyz   |    xyz   |  employees dat        | Name,role,contact                            |   Name,role,contact                                                                   | Name,role,contact                                                                                     |       Name,role,contact                                    |     Name of the policy/standard
 
 Step 3. List of stakeholders 
 
