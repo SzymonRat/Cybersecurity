@@ -102,10 +102,20 @@ Asset type: Technology
 
 =====================================================================================================================================================================================================================================================================================================================================================================================================================================================
 Name of hte asset |   Location   |  Backup location |   version |  newest  | type of stored data  | managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset | Applicable policies/standards
-
+=====================================================================================================================================================================================================================================================================================================================================================================================================================================================
 MySQL database     |  IP: XYZ    | IP:XYZ           |    xyz   |    xyz   |  employees dat        | Name,role,contact                            |   Name,role,contact                                                                   | Name,role,contact                                                                                     |       Name,role,contact                                    |     Name of the policy/standard                                                        
-
+=====================================================================================================================================================================================================================================================================================================================================================================================================================================================
 Oracle database     IP: XYZ    | IP:XYZ           |    xyz   |    xyz   |  employees dat        | Name,role,contact                            |   Name,role,contact                                                                   | Name,role,contact                                                                                     |       Name,role,contact                                    |     Name of the policy/standard
+=====================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+
+Asset type: Facilities
+
+Name of the asset  |    Location                        |  height  | thickeness  | electricty powered   |  Blueprint | installation date  | date of the last control |  CCTV monitored   | type of material   |  managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset | Applicable policies/standards
+
+Fence              |  around the building at street xyz |  2m.     | 3 mm.       | NO                   |  Yes       |  01.07.1995        |   05.08.2019             |   Yes              | steel             | Name,role,contact                              |  Name,role,contact 
+
 
 Step 3. List of stakeholders 
 
