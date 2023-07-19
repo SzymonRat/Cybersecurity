@@ -104,15 +104,9 @@ technical controls—These controls are operational in nature and primarily exec
 information technology components such as hardware, software, and firmware. Examples of
 technical controls are
 o network access control
-
-complex passwords
+o complex passwords
 o error checking
 o host-based intrusion detection system
-Technical controls can often be more general than those implemented for a specific technology or
-platform. These types of technical controls are referred to as IT General Controls. Within a large
-enterprise, the IT department often provides technical controls as common services to the rest of the
-organization. Often the effective operation of application-specific controls depends on technical
-controls functioning as intended. Examples of IT General Controls are
 o systems development
 o change management
 o security
@@ -128,23 +122,27 @@ o biometric access
 o temperature and humidity control
 
 
+Detective controls
+o Antivirus
+o Event log monitoring
+o IPS/IDS
+
+Preventive controls 
+o Malware prevention
+o Software patching & updates
+o User control access
+o Network access control
+o Encryption
+
+Correective controls - they attempt to reverse the impact of the incident
+o rebooting the system
+o system backup
+o data restoration
 
 An organization can use a single controls development strategy or elements from multiple strategies as
 long as the selected approach aligns with the strategic objectives of the organization
-
+Establishing an effective mix of controls should be considered as a way to
+keep costs down when developing and evaluating potential control
 
 All controls can be categorized as administrative, technical, or physical:
 
-The steps are as follows
-1. Obtain management support
-2. Define controls
-    a) controls can be defined on the followinf levels
-             -enterprise
-             -service
-             -asset
-3. Analyze and deploy controls
-    -veryifing if deployed controls meet the organization's objectives
-    -identify gaps
-    -update controls
-
-4. Assess controls
