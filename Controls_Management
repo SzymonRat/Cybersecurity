@@ -7,7 +7,7 @@ The cnotrol managemetn docuemnt must have the following
 
 Step 1. Scope statement 
 
-Determines if it's for the entire company or for the particulardepartment
+Determines if it's for the entire company or for the particular departmento
 as well as defines what the goal that we are trying to acheive e.g Our goal is to get
 a better insight into all data packets that are sent within/in/out of hte company
 
@@ -21,6 +21,23 @@ implementing processes
 Acknowledgement from management fortheintended approachtocontrolsmanagement,
 includingstakeholderexpectationsabout acceptable risk tolerance for the identified critical
 assets and services
+
+
+Step 3 Control identification
+
+=========================================================================================================================================================================================================================
+Requriement                       |      Implemented control                   |                            Gap                                            |      Proposed control
+=========================================================================================================================================================================================================================
+All employees are qulified        |  INterview process, refrences from the        |              Lack of the techcnical task                                |  Technical task shoudl be given at the recruitment stage   
+to work at the facility            previous employers, certification verification|                          
+==========================================================================================================================================================================================================================
+All employees are trustworthy    |  crimnal record statement                      |    governance clearance is not required                                 |  employees should obtain a governance lcearance
+=========================================================================================================================================================================================================================
+Access to the network and any
+network connected system is            | Change management process, access must be       |  no access policies/sandards, outdated                           |  create dedicated policies/atandards, update hardware/software
+conrolled to prevent any unatohorized    approved by administrato and manager,dedicated     hardware/software 
+access                                   hardware and software 
+===========================================================================================================================================================================================================================
 
 Step 3. List of stakeholders
 The list of stakeholders should be aligned tothescopingstatement and include allappropriate
@@ -39,13 +56,13 @@ Step 4. List of externally imposed requirements that must be met
 Legal and regulatory requirements regarding
 cybersecurity, including privacy and civil liberties obligations
 
-Step 5 List of critical asset
+Step 5 List of critical asset(This part can be taken from the Asset managemetn document)
 
 Critical asset is an asset that is necessary to the success of the organization’s mission
 To ensure operational resilience, an organization should consider each of the four asset types—people,
 information, technology, and facilities—when developing control objective
 
-Step 6 .Assignment of responsibilities (mapping asset -> stakeholder)
+Step 6 .Assignment of responsibilities (mapping asset -> stakeholder, this part can be taken fro mthe asset managemetn document)
 
 The relationships between  individuals and each asset type can be further illustrated using a Responsible,
 Accountable, Consulted, Informed (RACI) Matrix; where
@@ -56,7 +73,7 @@ Accountable-  role has to answer to higher level management when issues arise wi
 
 Consulted - role has specific knowledge of the asset or relies on that asset and needs to provide input
 
-Invformed - role would need to be updated on the activities surrounding that asset
+Informed - role would need to be updated on the activities surrounding that asset
 
 
 ===============================================================
@@ -160,10 +177,16 @@ o Configuration management tools
 o alternate site
 
 
-Step 9 Control analysis
+Step 9 analysis of the controls
 
 o Review the existing controls to ensure that new controls are not redundant
 o Review the existing controls to ensure they are still effective
+o review of policy and procedures to ensure they are satisfying the intent of the control objective
+o facility walk through
+o personnel interviews (provides an opportunity to speak directly with asset and service owners) 
+o formal penetration testing at the facility
+o factory acceptance tests
+o site acceptance tests
 o Establish new controls to fill the gaps between exsiting and updated controls
 o Assign tesponsibility for implementing new controls
 
