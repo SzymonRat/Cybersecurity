@@ -111,13 +111,39 @@ Oracle database     IP: XYZ    | IP:XYZ           |    xyz   |    xyz   |  emplo
 
 
 Asset type: Facilities
+================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Name of the asset  |    Location                        |  height  | thickeness  | electricty powered   |  Blueprint | build  date           | date of the last control |  CCTV monitored   | type of material   |  managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset | Applicable policies/standards
+================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Fence              |  around the building at street xyz |  2m.     | 3 mm.       | NO                   |  Yes       |  01.07.1995        |   05.08.2019             |   Yes              | steel             | Name,role,contact                              |  Name,role,contact                                                                   |  Name,role,contact                                                                                    | Name,role,contact                                             |  Name of the policy
+================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Building          |  streat xyz                        | 30 m     |  1 m        |  yes                | yes         | 12.06.1924         | 09..12.2921              |  Yes               | concret           |  Name,role,contact                              |   Name,role,contact                                                                  |                  Name,role,contact                                                                   |           Name,role,contact                                  |                                                              |                               
+================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
-Name of the asset  |    Location                        |  height  | thickeness  | electricty powered   |  Blueprint | installation date  | date of the last control |  CCTV monitored   | type of material   |  managing the asset on a day-to-day basis     | person who has to answer to higher level management when issues arise with that asset | person who has specific knowledge of the asset or relies on that asset and needs to provide input    | need to be updated on the activities surrounding that asset | Applicable policies/standards
-
-Fence              |  around the building at street xyz |  2m.     | 3 mm.       | NO                   |  Yes       |  01.07.1995        |   05.08.2019             |   Yes              | steel             | Name,role,contact                              |  Name,role,contact 
 
 
-Step 3. List of stakeholders 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+ List of stakeholders 
 
 The list of stakeholders should be aligned tothescopingstatement and include allappropriate
 internal and external entities. Potential candidates include
@@ -131,9 +157,9 @@ internal and external entities. Potential candidates include
 • compliance personnel
 
 
-Step 4 List of externally imposed requirements that must be met
+ List of externally imposed requirements that must be met
 
-Step 5 List of an asset.
+5 List of an asset.
 
 Identifying assets within an organization can be a daunting task, so the organization should first identify the
 services it provides. It can then identify assets by the services they support and divide the body of assets into
@@ -327,7 +353,7 @@ documentation when changes occur:
 • strategies and continuity plans for sustaining assets and services
 
 
-Step 6. Prioritization. 
+Prioritization. 
 
 After the organization has identified all of the services it provides, it should then prioritize those services.
 High-value services are services that are critical to the success of the organization’s mission.7 Their failure
@@ -351,7 +377,7 @@ resilience activities with the services that matter most, such as identifying as
 
 
 
-Step 7 .Assignment of responsibilities (mapping asset -> stakeholder)
+ .Assignment of responsibilities (mapping asset -> stakeholder)
 
 The relationships between  individuals and each asset type can be further illustrated using a Responsible,
 Accountable, Consulted, Informed (RACI) Matrix; where
@@ -386,7 +412,7 @@ engineer
 
 
 
-Step 8 Budget constrains/information
+
 
 
 
