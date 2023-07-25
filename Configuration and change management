@@ -72,9 +72,27 @@ The following are the core foundational activities in monitoring configuration c
 • Define remediation action.
 • Execute monitoring plan. 
 
+Management support is essential for an effective CCM plan (CCMP). Senior executive (C-level) support is
+often necessary for a CCMP being developed for an entire organization. For plans scoped to an individual
+service, only sponsorship from senior management responsible for the service may be necessary. For example,
+consider a hospital that has the following departments: Emergency Room, Cardiology, Radiology, Laboratory,
+Pharmacy, Surgical Services, Orthopedics, Physical Therapy, Information Services, and Materials
+Management. Configuration changes may affect each of these critical business functions differently, and largescale changes could impact them all. Senior management needs to balance the responsiveness of CCM
+managed at each individual unit against the cost savings that can be achieved by managing it at a higher level
 
 
+Existing documentation will provide insight into the organization’s unique requirements for implementing
+changes. It will also help identify any relevant external requirements, including regulatory boards or entities
+that must be considered in the design and implementation of changes. Also gather information collected as part
+of any other CRR implementations to reference when developing a CCMP.
 
+The change management request should answer the following questions:
+• What business objective does the service support?
+• Do other services depend on this service to complete their tasks?
+• What is the cost of disruption if the service fails?
+• What is the potential punishment (e.g., fines, litigation) for failure of the service?
+• Is there a potential for revenue or reputation loss?
+• Who is responsible for service (list the person, role, or group)? 
 
 
 
