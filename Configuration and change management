@@ -1,0 +1,91 @@
+Configuration and change management (CCM) is the process of maintaining the integrity of hardware,
+software, firmware, and documentation related to the configuration and change management process
+CCM is a continuous process of controlling and approving changes to information or technology assets or related
+infrastructure that support the critical services of an organization. This process includes the addition of new
+assets, changes to assets, and the elimination of assets.
+
+The following terms are associated with the CCM process:
+• configuration item (CI)—an asset or series of related assets (typically focused on information or
+technology) that is placed under configuration management
+• baseline configuration—a representation of the settings, software, and state of a CI, that is formally
+reviewed and agreed to at a given point in time and can only be modified through a formal CCM process.
+The baseline is used as a reference to manage the integrity of a CI over its lifecycle.
+4
+• configuration and change management plan (CCMP)—the process by which changes to CIs are governed
+and implementation is executed. This includes policies and processes to request, approve, reject,
+implement, monitor, and improve changes to CIs.
+• configuration management database (CMDB)—a database used to store configuration records throughout
+their lifecycle. A configuration management system maintains one or more configuration databases, and
+each database stores attributes of CIs and their relationships with other CIs.4
+• configuration control review board (CCRB)—an organizational construct, made up of stakeholders, that is
+responsible for supporting the assessment, prioritization, authorization, and scheduling of changes to CIs
+and the implementation of policies governing those changes. ITIL refers to this construct as a Change
+Advisory Board.
+
+Configuration and Change management plan
+
+CCM enables the organization to control frequent changes to its high-value assets so that disruptions are
+mitigated and benefits are optimized. Resilient organizations are able to adapt to or roll back from changes that
+do not occur exactly as planned. For CCM, as with many activities, planning greatly impacts the success or
+failure of a project.
+
+Configuration Items
+
+A configuration item is any system component, infrastructure component, document, or other item that needs
+to be managed to control the introduction of errors into the critical system or service.
+The following are the core foundational activities in identifying CIs:
+• Map critical organizational services to stakeholders and related services.
+• Identify assets related to the critical services.
+• Identify the CIs of the assets that will undergo change and require change and configuration management.
+• Determine a configuration baseline for each CI
+
+
+Implement and Control Configuration Changes
+
+Once all of the CIs have been identified and the most current configuration baseline has been tested and
+approved, changes can be applied to the systems. Baseline configurations are modified to maintain compliance
+with internal and external requirements and organizational goals. For a typical information technology system,
+the baseline should address installed software, patch levels, security posture, and system function. Where
+possible, the use of automated tools to apply the configurations is recommended. This lowers the risk of
+incorrectly applying configurations and provides an audit trail of the steps taken.
+The following are the core foundational activities in implementing configurations:
+• Evaluate change requests and approvals.
+• Model configuration changes in a test environment.
+• Deploy changes in the production environment.
+• Determine the success or failure of changes.
+• Roll back unsuccessful changes.
+• Close out completed changes.
+• Change configuration baselines. 
+
+
+
+
+Monitor Configuration Changes
+Controlling the changes to the baseline configurations of ever-evolving systems represents a major challenge
+to organizations. In this phase, organizations ensure that changes are identified, proposed, reviewed, and tested
+prior to implementation.
+The following are the core foundational activities in monitoring configuration change:
+• Identify systems or components not specified in documentation.
+• Identify disparities between authorized, approved baselines and actual, implemented baselines.
+• Monitor system logs for unauthorized changes.
+• Collect existing audits and configuration control records.
+• Define remediation action.
+• Execute monitoring plan. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
