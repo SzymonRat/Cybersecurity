@@ -96,11 +96,68 @@ The change management request should answer the following questions:
 
 
 
+Implementing a CCMP usually entails a change in the fundamental culture of an organization. Determining if
+there are gaps in the staff’s relevant knowledge, skills, and abilities and if the organization has appropriate
+training will greatly impact the success of the plan. It is also important for an organization to determine if it has
+staff qualified to enact the needed changes. Training those responsible for evaluating, approving, initiating, and
+monitoring changes is necessary to reduce the probability of executing unsuccessful changes
+
+There are various tools for managing the general CCM process. These tools track the overall process of
+configuration changes, including requests, status, communications, and issues related to changes. An
+organization should select a tool that meets its particular needs. Configuration information, including
+configuration baselines and historical changes to baselines and assets, is often consolidated in a configuration
+management database tool. There are also software tools, such as versioning repositories, that help manage
+changes in documentation. The CIs subject to the configuration management process, and their associated
+software, will often determine the choice of tools.
 
 
 
 
+The modeling and testing of changes is often an overlooked step in the CM process. Ignoring this step leads to
+an unusually high occurrence of changes that must be rolled back and a greater number of unsuccessful
+changes. Organizations with a mature CCM process have an established modeling and test environment for all
+critical systems, and they document the testing of all changes. An adequate modeling and testing environment
+should have the following:
+• isolated systems whose configurations are identical to the current approved baseline
+• data sets that closely mimic those in production (often these are clones of the live data)
+o Follow all regulatory requirements when working even with clones of live data.
+o Document any access of copies of personally identifiable information (PII), financial information, and
+protected health information. 
+Use synthetic data as long as it closely mirrors the structure of actual data.
+• inter-system connectivity mirroring that of the production environment (networking, ACLs, access
+methods)
+• access given to system owners and key stakeholders who use the system, but restricted access to all others
+• incorporated tools and procedures that test the confidentiality, integrity, and availability of the test data
+before and after a change is implemented
 
+Schedule configuration changes for deployment into production.
+1. Send a general announcement to all staff who have dependencies on the affected system, application,
+or documentation.
+2. Allow adequate time for information to be disseminated to stakeholders.
+3. Verify that downtime procedures are in place for mission-critical services.
+4. Preferentially schedule configuration changes during non-peak times.
+− Avoid end of month, quarter, or year for financial systems.
+− Avoid peak production times for industrial systems.
+− Avoid times of high patient volume for health-care systems.
+− Avoid critical organizational deadlines or external regulatory audits.
+B. Notify key stakeholders immediately prior to the change execution.
+1. Prepare on-call or onsite list.
+2. Maintain multiple contact avenues for key stakeholders (cell phone, home phone, email, etc.)
+
+
+To determine if the change was a success or failure we can use the following questions:
+
+• Did the configuration change have the intended impact on the CI?
+• Was the change completed within the window allotted to make the change?
+• Did the change have to be rolled back due to unidentified issues?
+• Did the change have significant, adverse impacts on systems or users not identified prior to the change?
+• Did the change have positive or adverse impacts on the confidentiality, integrity, or availability of the
+data?
+• Did the change improve performance of the CI or user experience with the CI?
+• Did the communications plan adequately notify stakeholders of the impending change and the progress of
+the change?
+o This will be largely dependent on the volume of reported issues related to the change.
+o This can also be assessed by using a post-change survey of key stakeholders. 
 
 
 
