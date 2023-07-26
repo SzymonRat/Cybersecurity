@@ -1,0 +1,147 @@
+The purpose of situational awareness is to actively discover and analyze information related to immediate
+operational stability and security and to coordinate such information across the enterprise to ensure that all
+organizational units are performing under a common operating picture
+Situational awareness provides an organization an understanding of its critical service’s operating environment
+and the environment’s impact on the operation of the critical service. This understanding provides stakeholders
+with a sufficiently accurate and up-to-date understanding of the past, current, and projected future state of a
+critical service and supports effective decision making in the context of a common operating environment.
+This includes understanding the assets and other services that affect or depend on the critical service. The
+representation or picture of the state of a critical service (including the condition of its supporting assets, the
+performance of its high-value physical and cyber processes, and events detected and responded to by its
+physical and cybersecurity safeguards) is presented to stakeholders in the context of the threat environment
+(internal and external) and the resulting risks to the critical service’s mission.
+
+The situational awareness process establishes a common operating picture (COP) by collecting, fusing, and
+analyzing data to support automated or human decisions about appropriate actions to prevent disruption of a
+critical service or to restore the service to proper function. This COP is shared through timely communication
+and presentation of the results of the data analysis to appropriate decision makers (people or machines) in a
+form that aids human comprehension (e.g., using data visualization techniques, appropriate use of alarms) and
+allows operators or other personnel to quickly grasp the key elements needed for good decision making. 
+
+ Depending on how it is presented, a complete picture could present too much
+information and overload a human decision maker. Operators should not be presented with a massive data
+dump; rather, operators should see only what’s important, which is determined by the risk strategy and overall
+risk picture
+
+1. Obtaining support for situational awerness 
+
+Obtaining support from management, in the form of resources (budget and staffing) and organizational
+commitment, is essential to ensuring the situational awareness plan is effectively implemented. A top-down
+approach can also help ensure the situational awareness program meets the resilience objectives of the
+organization.
+The level of management support required depends on the scope of the situational awareness program being
+implemented. Senior-executive-level support is necessary for a situational awareness plan that addresses the
+entire organization. Smaller implementations, such as those at the business unit or team levels, may require
+sponsorship only from the management responsible for that particular organizational level.
+Initially, situational awareness planning is usually iterative. As the other phases of the situational awareness
+process are completed (data collection and analysis, communicating situational awareness information, and
+improvement), the plan will need to be reviewed and revised. Eventually, situational awareness re-planning
+may be done periodically. 
+
+
+2. Establish situationa lawerness strategy
+Establishing a high-level strategy that focuses on long-term goals can be the foundational activity for any
+program. Establishing a strategy for situational awareness helps the organization develop a situational
+awareness program that reflects the priorities of the enterprise, operating units, and specific critical services.
+The following steps illustrate an approach for establishing the strategy for a situational awareness program.
+
+A. Identify management directives and organizational priorities. Organizational priorities can be
+articulated in many forms and help identify the strategic objectives. Strategic objectives are derived from
+strategic planning activities, which usually forecast two to five years out.6 The following sources can
+provide insight into management directives and organizational guidelines:
+strategic plan—The document in which an organization defines its plans for achieving its mission,
+where the organization wants to go, and how it plans on getting there. Large enterprises may have
+strategic plans at multiple levels within the organization, such as the enterprise and operating-unit
+levels. In this document, a plan refers to a set of activities, with associated assignments and resources,
+that is designed to accomplish an objective. It is more detailed and has a shorter timeframe than a
+strategy.
+critical success factors (CSFs)—A small number of areas in which an organization must consistently
+perform well to meet its goals and mission. CSFs illustrate what the organization considers its top
+priorities in achieving its goals.
+legal and regulatory obligations—Frequently sources of insight into requirements placed on the
+organization by external entities.
+internal policies and standards—Policies and procedures developed by the organization to promote
+acceptable behaviors and practices.
+
+B. Identify complementary strategies and plans that support and rely on situational awareness
+activities. Such strategies and plans include, for example,
+risk management
+asset management
+incident management
+vulnerability management
+service continuity management
+
+C. Define and document situational awareness program objectives. Situational awareness program
+objectives are derived from the management directives and organizational priorities identified above.
+
+D. Prioritize situational awareness program objectives. Situational awareness program objectives should
+be prioritized based on their potential to affect operational resilience.11 These priorities will help the
+organization allocate resources.
+The resources available to an organization for situational awareness will influence the selection of the
+situational awareness program strategy, which should
+focus on increasing the cyber resilience of critical services
+align with the organization’s strategic objectives
+The purpose of a situational awareness program is to identify specific activities that can implement and
+support the situational awareness objectives. The following steps illustrate an approach for integrating
+situational awareness objectives specific to cyber resilience in an existing situational awareness program:
+
+i. To avoid redundancy, review the existing situational awareness program activities before
+implementing new ones.
+ii. Assess the effectiveness of existing situational awareness program activities, using sufficient
+evidence. This review is often completed as a by-product of auditing or feedback and measurement
+activities.
+iii. Establish new situational awareness program activities to fill the gaps left by existing activities.
+iv. Confirm that the proposed revised situational awareness program effectively meets all of its
+objectives, and assign responsibility, typically to operating-unit managers, for implementing new
+activities
+
+Data for situational awerness usually comes from:
+- vulnerability managment
+- risk management
+- audit logs
+- service desk reports
+- faults,incidents,alarms
+
+
+4. eestablish an approach for communicating situational awerness information
+
+The organization must communicate situational awareness information about events or threats that can
+adversely impact the organization’s critical services. Frequently, this is accomplished by building a common
+operational picture (COP). The COP provides a means of communicating threat information to stakeholders in
+an appropriate and timely manner and serves as the basis for making good decisions and taking proper actions
+Example methods include
+• threat communication standards and guidelines
+• standardized report templates
+• communication escalation protocols
+• communication channels (email, text, mobile phone, etc.)
+
+
+5. Establish a situational awerness plan
+A situational awareness plan describes how the organization will collect, analyze, and communicate situational
+awareness information. The objectives of the plan are translated into specific activities assigned to individuals
+or groups. A situational awareness plan should address
+• the organization’s approach to situational awareness
+• the structure of the situational awareness process
+• the requirements and objectives of the situational awareness process
+• a description of how the organization will collect, analyze, and communicate situational awareness
+information
+• the roles and responsibilities necessary to carry out the plan
+• applicable training needs and requirements
+• resources that will be required to meet plan objectives
+• relevant costs and budgets associated with situational awareness activities
+
+Situational awerness planing questions
+
+Do we know which roles/positions need to be filled now?
+Do we know which roles/positions we would like to have?
+Do we have a good account of the team’s capabilities (skills, training)?
+Do we have actual job descriptions for every role we need to establish?
+Do we have training events/resources in our budget and on our calendar?Do we know which roles/positions need to be filled now?
+
+
+Effective situational awareness depends on the timely collection of sufficiently accurate and inclusive riskrelevant data about the critical service (such as the condition of its supporting assets, the discovery of
+vulnerabilities to which it would be susceptible, the performance of its high-value physical and cyber
+processes, and the events detected by its physical and cybersecurity safeguards), the fusing of data from
+multiple internal and external sources, and the analysis of data, which often includes modeling and simulation.
+Done well, situational awareness improves stakeholders’ understanding of the past, current, and projected
+future state of a critical service
