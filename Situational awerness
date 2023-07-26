@@ -145,3 +145,64 @@ processes, and the events detected by its physical and cybersecurity safeguards)
 multiple internal and external sources, and the analysis of data, which often includes modeling and simulation.
 Done well, situational awareness improves stakeholders’ understanding of the past, current, and projected
 future state of a critical service
+
+Prior to establishing the requirements for situational awareness data collection and analysis, the
+organization should identify the stakeholders for these activities and make them aware of their roles.
+Stakeholders of situational awareness data collection and analysis activities have the following
+responsibilities:
+collecting and analyzing situational awareness data
+defining, managing, and ensuring the effectiveness of situational awareness data collection and
+analysis activities
+overseeing the situational awareness data collection and analysis process
+handling situational awareness data (i.e., threat information) and the results of situational awareness
+data analysis (e.g., sensitive aspects of the COP) in a secure manner 
+Examples of situational awareness data collection and analysis stakeholders include
+critical service owners
+management
+risk management staff
+situational awareness staff
+incident management staff
+vulnerability management staff
+owners and custodians of assets that underpin the service
+critical service operations staff
+critical service maintenance staff (i.e., maintenance of assets that implement the service)
+service continuity staff
+external entities responsible for some part of the service (as vendors or service providers)
+contacts at ISACs
+contacts at external incident response teams (e.g., national and/or sector specific)
+information technology staff
+staff responsible for cybersecurity controls
+staff responsible for physical security controls
+human resources 
+
+
+Once all relevant stakeholders for situational awareness data collection and analysis activities have been
+identified, the organization should collaborate with these stakeholders, in the context of the risk analyses
+conducted in the risk management process, to elicit, specify, and document a comprehensive set of
+requirements for situational awareness data collection and analysis. The organization should also develop
+requirements based on the risks identified by the risk management analyses
+
+
+
+A crucial next step is to identify and implement standards for the collection and analysis of situational
+awareness data. First, the organization needs to identify relevant standards to form a foundation for
+performance requirements and expectations. The organization should then issue guidelines (typically in the
+form of organizational policies and procedures) to ensure that the performance of situational awareness
+monitoring and analysis activities meets standards and is predictable, measurable, and repeatable.
+Standards and guidelines typically address
+• identification of threat monitoring requirements
+• identification of threat communication requirements and protocols (e.g., whom to call and when)
+• identification of threat communication methods and channels
+• communications with stakeholders based on their role
+• collection and storage of threat data
+• distribution of threat data 
+
+Important part of the security awerness are IOC
+ Indicators of compromise (IOC) are forensic artifacts from intrusions that
+are identified on organizational information systems (at the host or network level). IOCs provide
+organizations with valuable information on objects or information systems that have been
+compromised. IOCs for the discovery of compromised hosts can include for example, the creation
+of registry key values. IOCs for network traffic include, for example, Universal Resource Locator
+(URL) or protocol elements that indicate malware command and control servers. The rapid
+distribution and adoption of IOCs can improve information security by reducing the time that
+information systems and organizations are vulnerable to the same exploit or attack. 
