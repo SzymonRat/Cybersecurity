@@ -159,6 +159,70 @@ the change?
 o This will be largely dependent on the volume of reported issues related to the change.
 o This can also be assessed by using a post-change survey of key stakeholders. 
 
+Often configuration changes do not occur as planned. The likelihood of unsuccessful changes can be greatly
+reduced by deploying all changes in a modeling and test environment  prior to any
+production changes. Even with a robust modeling and testing procedure, some changes will still be
+unsuccessful in production environments. The organization should take the following steps when a change is
+unsuccessful:
+A. IMMEDIATELY roll back the change to a state prior to the beginning of change execution.
+o Gather any information about the change failure.
+o Restore all configurations for CIs.
+o Restore backups of any changed data to a point immediately prior to the change execution.
+o Execute the testing plan for the system to validate that it is functioning as expected.
+B. Notify key stakeholders of the change failure and outline the steps taken to restore expected
+functionality.
+o Have representatives for stakeholder groups verify the functionality of the systems affected.
+o Notify executive leadership if the impact affects the entire organization.
+C. Schedule a post mortem meeting with the change manager, those who executed the change, and any
+key stakeholders who require situational awareness.
+D. The change manager should instruct the change execution team to begin researching alternative
+ways to execute the change that will be successful.
+o These alternatives should all be tested in the modeling and testing environment.
+o Also consider the impact of not performing the change
+
+
+All successful, completed changes should be formally closed out during a meeting of the CCRB. The CCRB
+should consider the following factors when officially closing out a change:
+• Did the change meet its desired objectives and the objectives of the organization?
+Were there any unanticipated impacts of the change?
+• Will this change necessitate additional changes?
+• Was the change performed within its original budget and resource allocation?
+• Are key stakeholders satisfied with the result of the change?
+• What can be improved as a result of lessons learned?
+o scheduling
+o process
+o training
+o resource allocation
+o equipment and automation
+• Also discuss changes to the configuration baselines of any CIs that were affected by the change. 
+
+
+Emergency situations sometimes hasten the configuration change control process. Some examples include
+o natural disasters (floods, earthquakes, storms)
+o loss of critical supply chain or utility support (material supply vendor outages, electricity, water)
+o technological incidents (denial of service attacks, virus outbreaks, security events, network cable cuts)
+o loss of critical facilities (data center outages, building evacuations for extended periods)
+o external vendor incidents (cloud provider outages, network and telecom provider outages)
+• critical security patches released by vendors
+• zero-day vulnerabilities that require immediate remediation until a patch can be developed
+To effectively mitigate the impact of these events, the organization needs to accelerate its change management
+process to implement solutions rapidly. This does not mean that all rigor surrounding the change management
+process should be abandoned. In emergency situations, organizations should consider the following
+suggestions to quickly implement changes:
+• Organize an emergency CCRB that can meet on extremely short notice to approve changes that need
+immediate implementation.
+• Include senior leadership, management of critical lines of business, and management of key IT areas in
+CCRB membership.
+• Plan for multiple methods of meeting (in person, conference bridge, web-meeting) in case the emergency
+occurs outside normal business hours.
+• Create an emergency change implementation plan that includes a list of individuals on the emergency
+CCRB and a list of procedures that are modified from the standard CCMP. 
+
+
+Once changes are completed successfully and the configuration changes are entered into the CMDB, the
+organization must update the CI’s baseline configuration. This new baseline will be the basis for deployment
+of any additional instances of that CI, and it will serve as the starting point for any restoration of that CI’s
+configuration. 
 
 
 
