@@ -4,6 +4,75 @@ CCM is a continuous process of controlling and approving changes to information 
 infrastructure that support the critical services of an organization. This process includes the addition of new
 assets, changes to assets, and the elimination of assets.
 
+Change management request should contain the following
+
+                             Organization_Name_CM_ID
+
+============================================================================================
+Title of change request:                     |  Change control ID:
+============================================================================================
+Change requestor:                            | Date:
+============================================================================================
+Detailed Description of change
+
+
+
+
+
+============================================================================================
+Proposed date/Time of change:
+
+============================================================================================
+Stakeholders group Impacted:
+
+
+============================================================================================
+Business justification for change:
+
+
+===========================================================================================
+Expected Impact of change:
+
+
+===========================================================================================
+Expected Impact to resillences requirements of the asset:
+
+
+
+
+===========================================================================================
+Rollback procedures
+
+
+
+==========================================================================================
+Change urgency LOW/MEDIUM/HIGH/EMERGENCY
+
+
+==========================================================================================
+Preliminary assessment by CCRB
+
+
+========================================================================================
+CCRB decision
+Approved|Rejected|Additional information required|Deffered
+
+
+
+=======================================================================================
+CCRB Comments
+
+
+
+========================================================================================
+CCRB signature                           | Date
+=========================================================================================
+
+
+
+
+
+
 The following terms are associated with the CCM process:
 • configuration item (CI)—an asset or series of related assets (typically focused on information or
 technology) that is placed under configuration management
