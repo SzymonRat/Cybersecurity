@@ -182,3 +182,66 @@ and may affect the organization
 entities such that it can be accounted for when planning against disruptions
 • situational awareness and threat management—identifying and disseminating information about threats
 that may originate from or affect external dependencies 
+
+Reporting from a managed repository can help keep external dependencies information accurate and complete.
+An EDM repository typically includes information such as
+• type of dependency (e.g., data processing, power, software support, situational awareness information)
+• name, location, and contacts for external service providers
+• services and assets supported
+• financial information on agreements and suppliers
+• resilience requirements (i.e., confidentiality, integrity, availability)
+• criticality or ranking of the external entity (e.g., high, medium, low)
+• contract information (e.g., term, contract contact, key contractual obligations, or SLAs)
+• documentation on known issues, performance, or compliance concerns
+• technical overview (e.g., systems, networks, and information/data managed)
+• internal owner of the relationship
+The external dependency information management process depends on the clear assignment of ownership.
+Accountability and responsibility for the overall information management process might best be assigned to
+the individual or group responsible for the overall external dependency program. The more granular level of
+information management—the collection, reporting, and maintenance of dependency information for each
+relationship—is also critical to the management information process and typically falls to the owner of the
+supplier relationship. For relationships whose internal ownership is not easily defined, such as with
+government, emergency responders, and critical infrastructure providers, information management
+responsibility may need to be assigned by those responsible for the broader EDM program.
+
+Provided that requirements are clear and defined in formal agreements and contracts, organizations can use
+these formal agreements to allocate risk to and drive the behavior of contracted parties. Organizations with
+greater control over a critical supplier can include extensive control requirements in their agreement along with
+monitoring, auditing, and reporting activities to oversee the relationship. Corrective actions or financial
+penalties are valuable tools for encouraging an external supplier to expeditiously address its issues,
+weaknesses, and risks. Organizations with less control over the supplier (e.g., utility companies and
+government agencies) should address missing or weak requirements as risks to be managed internally.
+Contractual terms usually include
+• nature and scope of relationship or agreement
+• cost and payment definition
+• SLAs
+• metrics and benchmarks to measure performance
+• information management requirements
+• subcontractor terms and requirements
+• compliance requirements
+• audit or oversight rights and provisions
+• intellectual property and licensing terms
+• liability and dispute resolution
+• cybersecurity control requirements
+• business continuity requirements
+• insurance and indemnification
+• termination process
+
+
+From a resilience perspective, formal agreements should also include performance standards and the ability to
+modify or change specifications and standards over the life of the agreement. Performance standards should be
+included so that the external entity knows how it will be evaluated relative to satisfaction of the contract.
+Including language that allows terms and specifications to be updated is very important because the resilience
+requirements that apply to the external entity may change and require modification over time. The appropriate
+organizational staff should be involved so that the terms and specifications of these formal agreements can be
+as effective as possible. Individuals most familiar with the resilience requirements and specific technological
+requirements of the high-value services being supported must be directly engaged in contract negotiation.
+These personnel should actively communicate with the legal and procurement departments and have a stake in
+the process of formalizing relationships.
+
+
+Identifying and prioritizing dependencies are essential management activities that help the organization
+determine the
+• dependency exposures that should receive the most attention
+• type and extent of controls to be put in place
+• extent of resource investments needed to manage associated risks
