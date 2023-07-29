@@ -32,3 +32,153 @@ potential impact of its failure to meet the organization’s requirements. When 
 take corrective actions such as imposing fines, transitioning to another vendor, or bringing the activity back
 into the organization. The organization might also mitigate risk through other means, such as adding suppliers
 or strengthening its service continuity and incident management plans. 
+
+
+Monitoring and improving the EDM processes and program help ensure that they continue to support the
+organization’s objectives. This phase of the process focuses on maintaining the effectiveness of dependency
+and risk management, and involves assessing the effectiveness of EDM and any needed refinements to the
+plan.
+
+Management support in an EDM plan is normally documented as a policy statement and preface to the plan
+which explains the emphasis and importance that executive leadership places on external dependency
+management. After management support is obtained, there are four primary inputs needed to develop a strategy
+for EDM:
+• scope
+• objectives
+• enterprise requirements
+• risk management planning 
+
+
+The organization and the plan writers should identify the objectives of the EDM plan. Normally, a basic
+objective is to ensure the resilience of the high-value service. Writing an objective statement, such as “The
+objective of the External Dependencies Management Plan is to effectively manage external dependencies risks
+in a cost-efficient manner and protect [high-value service] for the benefit of our organization and
+stakeholders,” is a clear and useful first step
+
+Next the organization should document any enterprise requirements that will apply to all external
+dependencies. These may be based on a broad range of factors, business judgments, and inputs from other
+resilience processes (controls management, technology management, incident management, service continuity,
+and others). Enterprise requirements might include
+• satisfaction of compliance obligations that extend to third-party entities (HIPAA business associate
+requirements are a common example from the health-care sector)
+• maintenance of service continuity and incident management plans
+• a level of financial stability desired in any external entity that supports the critical service
+
+Finally, as part of the EDM strategy, the organization should document specifically how it will manage the
+risks of entering into and maintaining relationships with external entities. This part of the strategy should
+document the role of organizational risk managers in the external dependency management process and clarify
+the risk management responsibilities of the various parties or organizational components involved. In most
+cases managers who interface with external entities, typically in the areas of business operations, procurement,
+and IT operations, should work closely with enterprise-level risk managers to inform them and help make
+decisions.
+
+
+Forming relationships with suppliers sets a course for managing dependency risks over the lifecycle of the
+relationships. The quality of communications and collaboration can drive the management of external
+dependencies risk and establish effective support for the organization over the long term. Done well,
+collaborative relationships can spur efficiencies, information sharing, innovation, and growth. To make this a
+reality, the organization should carefully plan and document how it will form new relationships with external
+entities.
+
+The plan should also specify how the organization will ensure that the correct requirements are developed for
+each external entity. Though enterprise requirements (discussed previously) are a very important part of the
+agreements between the organization and the external entity they usually form only part of the requirements
+for a particular external entity. The full set of requirements will be based on the specific service or support
+provided by the external entity and its role in support of the critical service or services that the organization
+provides to its own stakeholders. The following is an example list of requirements:
+• resilience capabilities or level of cybersecurity maturity
+• operational and technology availability and history/capability
+• financial viability
+• use and oversight of subcontractors
+• disruption management capabilities (e.g., incident management and business continuity)
+• environment factors (geographic, political, or weather event exposures)
+• infrastructure exposures or risks
+• cybersecurity threat and vulnerability management
+
+
+The plan should document how the organization will evaluate and confirm that the candidate external entity
+can actually meet the requirements. Normally the particular steps or measures to do so will vary according to
+the risk level presented by the proposed relationship. Some example methods for evaluating the capability of
+external entities include
+• third-party audit or assessment (process maturity or penetration testing)
+• completion of standard checklists
+• research on the external entity, for example, customer references
+• direct examination of artifacts (e.g., the entity’s incident response plan )
+
+
+Organizations increasingly rely on external entities for information and communications technology services,
+often to interact with assets that are essential to achieving the organizational mission. The organization should
+document a process for how it will reliably and sustainably identify existing external dependencies. This part
+of the plan should contain two sections:
+• a statement about how the organization will approach dependency identification
+• the staff roles that will be directly responsible for ensuring that the list of external dependencies is
+populated and updated
+The Cyber Resilience Review’s focus on services and assets and its underlying approach provide a framework
+for identifying external dependencies. By first understanding the organizational assets that most closely
+support the high-value services, managers can then identify those assets’ related external dependencies. For
+example, an organization that depends on access to its customer data—a particular type of information asset—
+might focus on managing external dependencies associated with the data’s custodianship, maintenance,
+protection, and support; raising the priority of the current controls and mitigations to prevent a data breach;
+ensuring the availability of the data; and mitigating data center outages or failures of the networks used to
+access the data
+
+The plan should next document the staff positions and roles that will help the responsible manager identify
+dependencies. Leveraging existing processes and communications channels where possible facilitates a
+smoother transition to a new or improved external dependency identification approach. For example, business
+continuity planners collect information on suppliers, contract groups are involved in managing existing
+suppliers and typically know which are key to the business, and senior executives have insight into long-term
+strategies in which suppliers play leading roles. Internal service or product line owners will also normally have
+a good sense of their dependencies. The following are some typical data sources and artifacts for dependency
+and supplier information:
+• contracts and supplier agreements
+• supplier and customer databases
+• asset management database
+• business continuity plans
+
+Organizations should next plan how to determine and rank the priority and importance of their external
+dependencies. The organization should use a risk-based approach that focuses resources on managing only
+those external entities that most directly impact essential services. For example, suppliers providing facilities
+maintenance may require less attention because they typically have minimal impact on service delivery and
+can be easily replaced should they fail to perform as expected. The prioritization process should be
+documented and typically includes the following steps:
+1. Determine and standardize the prioritization criteria used to distinguish the relative importance of each
+dependency or external entity.
+2. Establish thresholds for dependency grouping (e.g., Tier 1, Tier 2), for controls management and
+oversight.
+3. Document the frequency of follow-up priority reviews.
+
+Criteria to consider when prioritizing external dependencies include
+• the dependencies that support the most important assets (including technology, people, facilities, and
+information)
+• the criticality of external entities to the essential service(s) or to assets that support the essential service(s)
+• the sensitivity of the information the external entity manages or has access to (e.g., secret, confidential,
+personal)
+• the availability of alternative suppliers or sources of services and products
+• support of multiple services provided by single external entities
+• external entity’s role in supporting a key service
+• reliance on the external entity to ensure and control the integrity, confidentiality, or availability of highvalue assets
+• the extent to which the organization would rely on the external entity during a disruption or crisis
+These are examples of approaches to criteria that an organization could take to prioritizing external
+dependencies. All of them may apply and be useful in the organization or managers may decide that
+dependencies should be prioritized using only one or two defined criteria. Regardless of the actual criteria
+chosen the prioritization of external dependencies should reflect and be based on the prioritization of services
+and assets
+
+
+Planning and documenting requirements and roles for the management of external entities are essential parts of
+the external dependency management plan because external entities are often an extension of the organization
+itself. In addition, because of the dependence that many organizations have on external entities and the
+complexity of many business structures, external entity considerations may affect the planning of other
+resilience processes, for example
+• change management and control—collaborating and working with the organization’s change management
+process
+• planning service continuity and incident management to account for external dependencies
+• information management controls—protecting the organization’s information and intellectual property in a
+manner that is consistent with its confidentiality and sensitivity
+• human resources—reporting HR issues that might affect the organization or its services
+• communication and notification—reporting incidents, events, or issues that originate with external entities
+and may affect the organization
+• service continuity and incident management—understanding the organization’s reliance on external
+entities such that it can be accounted for when planning against disruptions
+• situational awareness and threat management—identifying and disseminating information about threats
+that may originate from or affect external dependencies 
