@@ -1,3 +1,90 @@
+
+                   External Dependency Management Policy
+=====================================================================================================
+External dependencies management is the ongoing process of managing external entity relationships and risks
+and facilitating the effective use of external suppliers to support [Organization Name] in achieving its mission.
+This policy lays the framework for a formal external dependencies risk management program by establishing
+responsibility for the management of external entity relationships and risks. The external dependencies
+management responsibilities include the identification, analysis, oversight and monitoring of external
+dependencies risks as well as the management of the external relationships that are essential to successful,
+predictable, and consistent delivery of services. 
+===================================================================================================
+
+Statement
+
+All employees, contractors, and business partners will take all appropriate actions to manage external
+dependencies risks and relationships with external entities in a manner that promotes [Organization Name]’s
+risk management, business, and mission objectives.
+====================================================================================================
+
+Objective 
+
+The objective of this policy is to ensure that [Organization Name]’s relationships with external entities are
+managed in a manner that meets its business and risk management goals. 
+========================================================================================================
+
+Scope
+
+This policy applies to all individuals and functions internally or externally that perform tasks in support of the
+organization’s mission. 
+==============================================================================================================
+
+Requirements
+
+Provider needs to present the following documents
+- history/capability of the technology and operational availability
+- vulnerability managment plan
+-incident management plan
+-business continuity plan
+- risk managment plan
+=================================================================================================================
+Responsibilities
+
+Employees, Contractors, and Business Partners
+All employees, contractors, and business partners of [Organization Name] shall
+• comply with all external dependencies risk policies, standards, and guidelines
+• be familiar with and support external dependencies risk objectives
+• report any actual or suspected risks associated with external dependencies and/or external
+relationships
+• take all appropriate actions to support the confidentiality, availability, and integrity of the
+information, technology, facility, and people assets of the organization that may be impacted by
+external entities
+
+
+Executive and Senior Management
+Executive and senior management shall
+• support the development and maintenance of the external dependencies risk management plan
+• implement the external dependencies risk management plan
+• provide support for adequately resourcing the external dependencies risk management plan
+• ensure all employees, contractors, and business partners understand their external dependencies risk
+management responsibilities
+• take all appropriate actions to ensure relationships with external entities are effectively managed to
+limit the risks of external dependencies on [Organization Name]
+=================================================================================================================
+
+Document history
+
+==============================================================================================================
+
+
+
+                       External Dependency Management Information 
+
+===============================================================================================================================================================
+Supported asset   |   Vendor       |  Vendor agreement |  Required Compliance  | Vendor Contact information   |   Owner of the relationship   |  Criticality
+===============================================================================================================================================================
+Data center       |  Microsoft     |   <URL>           |  <standards_meet >    |  <email_phone>               |  John Doe                     | Critical
+===============================================================================================================================================================
+Oracle database   | Oracle         |   <URL>           |  <standards_meet>     | <email_phone>                | Mike brown                    | Medium
+===============================================================================================================================================================
+Server infrastructure| Amzaon      | <URL>             | <stnadrds_meet>       | <email_phone>               | SImon Rat                      | Critical
+============================================================================================================================================================
+
+
+
+
+
+
 The purpose of EDM is to ensure the protection and sustainment of services and assets
 that are dependent on the actions of external entities. 
 External dependencies and supply chain concerns are not new. Recently, however, advances in information
@@ -25,6 +112,8 @@ Shared infrastructure—The supplier provides its services to a region or group.
 are virtually the same across the customer base. Examples include power, water, and telecommunications.
 Public—Typically these relationships are with a government entity such as a state, local, or federal agency and are not
 governed by a contract or agreement. Examples include security services (fire, police) and transportation networks.
+
+
 
 Monitoring, governing, and correcting supplier performance are essential activities. As with all aspects of
 dependency management the approach must be risk-based, reflecting the supplier’s importance and the
@@ -245,3 +334,12 @@ determine the
 • dependency exposures that should receive the most attention
 • type and extent of controls to be put in place
 • extent of resource investments needed to manage associated risks
+
+
+Having requirements is a foundational part of managing the resilience and security of any service.
+Requirements form the basis for the provider selection process and for agreements and contracts that codify the
+terms of the relationship. To strengthen the quality of the overall relationship formation and management
+process, the organization should maintain clear and measurable external-entity requirements that support the
+critical service. 
+
+
