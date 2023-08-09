@@ -1,0 +1,85 @@
+Disruptions to an organization’s operations may occur regularly and can scale from so small that the impact is
+essentially negligible to so large that they could prevent an organization from achieving its mission
+The required responses to these disruptive events must scale similarly. Some events may not require a
+formal response by the organization and can be effectively ignored or handled at the individual level following
+standard operating procedures. For example, a workstation may lock up, preventing the processing of new
+orders. Addressing this interruption may only require the individual workstation owner to perform a simple
+reboot. Once the workstation reboots, orders can be processed again. The event required a response, but that
+response was carried out by a single individual. Other disruptive events require the entire organization to
+mobilize resources. Examples of events whose management may require significant resource investment
+include natural disasters, loss of a primary data center, a cyber attack that disrupts critical organizational
+infrastructure, or any event that affects the organization’s ability to deliver critical services. 
+
+The process of detecting, analyzing, responding to, and improving from disruptive events is known as incident
+management. The goal of incident management is to mitigate the impact of a disruptive event. To accomplish
+this goal, an organization establishes processes that
+• detect and identify events
+• triage and analyze events to determine whether an incident is underway
+• respond and recover from an incident
+• improve the organization’s capabilities for responding to a future incident 
+
+An event is one or more occurrences that affect an organization’s assets and have the potential to disrupt its
+operations
+ An effective incident management process requires that an organization monitor and identify
+events as they occur. Many units in an organization can perform this activity, but it is often the responsibility 
+
+of a help desk or network operations center. The optimal implementation of the event detection activities
+depends heavily on the organizational structure and the scope of the larger incident management process. For
+example, a smaller organization may not have a formal help desk or network operations center. Those
+organizations may assign event detection responsibilities to specific information technology staff or outsource
+event detection responsibilities to a third-party provider. No matter the specific implementation, all
+organizations should have capabilities to detect, report, log, track, collect, and store event evidence. The
+inability to identify events in a timely manner can significantly increase the organization’s recovery costs and
+effort.
+Important activities in event detection include
+• event detection and reporting
+• logging of event data in an incident database or similar mechanism
+• event status tracking
+• handling of event data in accordance with laws, rules, regulations, policies, etc.
+
+
+
+
+An incident is a high-magnitude event or series of events that significantly affects organizational assets and
+requires the organization to respond in order to prevent or limit organizational impact.5 Triaging event artifacts
+is the first step in an analysis process through which an organization recognizes that an incident is underway.In
+the triage process, an organization determines how to categorize an event or series of events, how to evaluate
+it, and whether the event reaches the threshold of a declarable incident. The threshold for when an incident
+has occurred, is occurring, or is imminent and requires a response is unique to each organization and depends
+on factors such as organizational structure, mission requirements, and laws and regulations. For example, a
+technical disruption with a time-to-repair that exceeds the acceptable recovery time of a critical service may be
+a threshold for declaring an incident. 
+
+Once an organization recognizes an incident, it performs additional analysis to determine the appropriate
+response. Analysis helps the organization better understand the incident, identify appropriate actions to contain
+or prevent further impact from the incident, and recover and return to operations. Some organizations may
+have already planned specific responses to previously considered incidents. In other cases, organizations may
+need to collect input from all of the appropriate stakeholders to determine the best response. Stakeholders may
+include asset owners, senior leadership, technical staff, and dedicated incident response staff.
+Important activities in the triage and analysis include
+• event categorization
+• events prioritization
+• event data correlation and analysis
+• incident declaration
+• incident analysis and response determination 
+
+
+Responding to and recovering from an incident requires an organization to take actions to prevent or contain
+the impact of an incident. This requires that organizational response be escalated to the stakeholders who are
+best able to implement and manage the response and bring the incident to a close. The amount of resources and
+level of effort required for the organizational response will vary with the extent of the incident and should be
+informed by incident analysis. Appropriate responses can range from simply informing an asset owner of the
+occurrence of an incident to implementing service continuity plans that require relocating services and
+operations to a secondary location. Because there is a broad range of potential incidents, organizations must
+consider a broad range of potential responses. Each organization’s unique operating environment determines
+the appropriate response and should be used by the organization to set incident response performance
+requirements. Examples of incident response performance requirements include response time frames for
+incident types, cost per incident, time from event detection to event closure, and time from incident declaration
+to stakeholder communication. Factors that influence an organization setting these requirements include
+organizational mission, critical success factors, risk appetite, and current competitive environment.
+Important practices in the Respond and Recover step include
+• incident escalation to stakeholders
+• response development and implementation
+• incident status communication
+• incident tracking 
+
