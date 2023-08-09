@@ -83,3 +83,21 @@ Important practices in the Respond and Recover step include
 • incident status communication
 • incident tracking 
 
+
+
+Once an organization responds to an incident and its operations are no longer being disrupted, the organization
+should conduct a post-incident review to consider the performance of its response activities. Organizations can
+use this review to understand why an incident or series of incidents occurred and what the organization can do
+prevent them in the future. The review should include all those who participated in the response and recovery
+and the stakeholders whose assets were impacted by the incident. It should consider whether the response and
+recovery were as effective and efficient as they could have or should have been. From a risk management point
+of view, the organization can use the lessons learned from an incident to improve its protection and control
+strategies and to optimize them with its business continuity and disaster recovery plans. As with the other
+steps, the extent and effort required for the review depend on the impact of the incident and the organization’s
+operating environment. Once the organization has completed its review, it is important that it close the
+incident. Closing the incident is an official declaration that no further action on the incident needs to be taken.
+Incident closure activities ensure that all of the stakeholders affected by the incident are notified that it has
+been addressed, and they should not see any further effects.
+Important practices in improving the incident management capability include
+• root cause analysis
+• incident closure 
